@@ -7,7 +7,7 @@ Torch tensors are Numpy arrays on steroids. These tensors are capable of automat
 ## Automatic Differentiation
 `torch.autograd` module is responsible for tracking the operations performed on a tensor and calling the corresponding sequence of `tensor.grad_fn` when `tensor.backward()` is invoked.
 Example:
-```jupyter
+```python
 import torch
 
 x = torch.ones(5) # input tensor
@@ -26,5 +26,23 @@ print(w.grad)
 print(b.grad)
 ```
 
-> [!edit] Note
+> [!note]
 > We can only obtain the `grad` properties for the leaf nodes of the computational graph, which have `requires_grad` property set to `True`. For all other nodes in our graph, gradients will not be available. In addition, we can only perform gradient calculations using `backward` once on a given graph, for performance reasons. If we need to do several `backward` calls on the same graph, we need to pass `retain_graph=True` to the `backward` call.
+
+### Disabling Gradient Tracking
+
+```python
+import torch 
+x = torch.ones(5) # input tensor 
+y = torch.zeros(3) # expected output 
+w = torch.randn(5, 3, requires_grad=True) 
+b = torch.randn(3, requires_grad=True)
+
+z = torch.matmul(x, w)+b
+print(z.requires_grad)
+
+with torch.no_grad():
+	z = torch.matmul(x, w)+b
+print(z.requires_grad)
+```
+
