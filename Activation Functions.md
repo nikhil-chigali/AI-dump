@@ -4,5 +4,5 @@
 	$f(x) = {\large \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}}$
 3. **_ReLU_** (Rectified Linear Unit) used to set the output node to 0 if fuction result is negative and keeps the result value if the result is a positive value. 
 	$f(x)= {\small \begin{cases} 0, & \text{if } x < 0\\ x, & \text{if } x\geq 0\\ \end{cases}}$
-4. ***Softmax*** takes *logits* - raw value on \[ -$\infty, \infty$ ] and returns probability distribution across all the output labels (i.e., the sum of all the probabilities will equate to 1).  
+4. ***Softmax*** takes *logits* - raw value on \[ $-\infty, \infty$ ] and returns probability distribution across all the output labels (i.e., the sum of all the probabilities will equate to 1).  
 	$f(x) = {\large \frac{e^{x_i}}{\Sigma_j {e^{x_j}}}}$ 

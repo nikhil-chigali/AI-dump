@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch (MSLearn).md",
+                "file": "Activation Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch (MSLearn).md",
+                "file": "Activation Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch (MSLearn).md",
+                "file": "Activation Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch (MSLearn).md"
+                "file": "Activation Functions.md"
               }
             }
           },
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 348.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,17 +166,17 @@
   },
   "active": "15375af9534b87ac",
   "lastOpenFiles": [
+    "Evaluation Metrics.md",
+    "Loss Metrics.md",
+    "Machine Learning Models.md",
+    "Optimizers.md",
+    "PyTorch (MSLearn).md",
     "Activation Functions.md",
     "Deep Learning Models.md",
     "Images",
     "Images/Pasted image 20230411144201.png",
-    "PyTorch (MSLearn).md",
-    "Optimizers.md",
     "Todo.md",
-    "Loss Metrics.md",
-    "Evaluation Metrics.md",
     "README.md",
-    "Machine Learning Models.md",
     "2023-04-10.md"
   ]
 }
