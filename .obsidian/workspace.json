@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning Models.md",
+                "file": "Activation Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning Models.md",
+                "file": "Activation Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning Models.md",
+                "file": "Activation Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning Models.md"
+                "file": "Activation Functions.md"
               }
             }
           },
@@ -164,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38f0299d42e4b4a0",
+  "active": "15375af9534b87ac",
   "lastOpenFiles": [
+    "Deep Learning Models.md",
+    "Activation Functions.md",
     "Images",
     "Images/Pasted image 20230411144201.png",
     "PyTorch (MSLearn).md",
@@ -173,7 +175,6 @@
     "Todo.md",
     "Loss Metrics.md",
     "Evaluation Metrics.md",
-    "Deep Learning Models.md",
     "README.md",
     "Machine Learning Models.md",
     "2023-04-10.md"

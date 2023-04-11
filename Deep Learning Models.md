@@ -1,4 +1,4 @@
-# Neural Network
+# 1. Neural Network
 
 ## Components of a neural network
 
