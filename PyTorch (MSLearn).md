@@ -27,7 +27,8 @@ print(b.grad)
 ```
 
 > [!note]
-> We can only obtain the `grad` properties for the leaf nodes of the computational graph, which have `requires_grad` property set to `True`. For all other nodes in our graph, gradients will not be available. In addition, we can only perform gradient calculations using `backward` once on a given graph, for performance reasons. If we need to do several `backward` calls on the same graph, we need to pass `retain_graph=True` to the `backward` call.
+> - We can only obtain the `grad` properties for the leaf nodes of the computational graph, which have `requires_grad` property set to `True`. For all other nodes in our graph, gradients will not be available. In addition, we can only perform gradient calculations using `backward` once on a given graph, for performance reasons. If we need to do several `backward` calls on the same graph, we need to pass `retain_graph=True` to the `backward` call.
+> - If we call `backward` for the second time with `retain_graph=True` and not zeroing the grads, the value of the gradient is different. This happens because when doing `backward` propagation, PyTorch **accumulates the gradients**, i.e. the value of computed gradients is added to the `grad` property of all leaf nodes of computational graph. If you want to compute the proper gradients, you need to zero out the `grad` property before. In real-life training an [[Optimizers]] helps us to do this.
 
 ### Disabling Gradient Tracking
 
@@ -85,3 +86,5 @@ $J = {\large \frac {d\vec{f(x)}}{d\vec{x}}} = \large \begin{bmatrix} \frac{\part
 > [!note]
 ![[Pasted image 20230411164322.png]]
 > A nonlinear map $f: \mathbb{R}^2 \mapsto \mathbb{R}^2$ sends a small square (left, in red) to a distorted parallelogram (right, in red). The Jacobian at a point gives the best linear approximation of the distorted parallelogram near that point (right, in translucent white), and the Jacobian determinant gives the ratio of the area of the approximating parallelogram to that of the original square. #math
+
+Instead of computing the Jacobian matrix itself, PyTorch allows you to compute **Jacobian Product**, $v$  for a given input vector v=(v1…vm)�=(�1…��). This is achieved by calling `backward` with v� as an argument. The size of v� should be the same as the size of the original tensor, with respect to which we want to compute the product
