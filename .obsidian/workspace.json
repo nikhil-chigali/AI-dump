@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning Models.md",
+                "file": "PyTorch (MSLearn).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning Models.md",
+                "file": "PyTorch (MSLearn).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning Models.md",
+                "file": "PyTorch (MSLearn).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning Models.md"
+                "file": "PyTorch (MSLearn).md"
               }
             }
           },
@@ -164,15 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15375af9534b87ac",
+  "active": "a02ae156b0824a52",
   "lastOpenFiles": [
-    "PyTorch (MSLearn).md",
-    "Deep Learning Models.md",
-    "Activation Functions.md",
-    "Evaluation Metrics.md",
-    "Loss Metrics.md",
-    "Machine Learning Models.md",
     "Optimizers.md",
+    "Machine Learning Models.md",
+    "Activation Functions.md",
+    "Deep Learning Models.md",
+    "Evaluation Metrics.md",
+    "PyTorch (MSLearn).md",
+    "Loss Metrics.md",
     "Images",
     "Images/Pasted image 20230411144201.png",
     "Todo.md",
