@@ -87,4 +87,9 @@ $J = {\large \frac {d\vec{f(x)}}{d\vec{x}}} = \large \begin{bmatrix} \frac{\part
 ![[Pasted image 20230411164322.png]]
 > A nonlinear map $f: \mathbb{R}^2 \mapsto \mathbb{R}^2$ sends a small square (left, in red) to a distorted parallelogram (right, in red). The Jacobian at a point gives the best linear approximation of the distorted parallelogram near that point (right, in translucent white), and the Jacobian determinant gives the ratio of the area of the approximating parallelogram to that of the original square. #math
 
-Instead of computing the Jacobian matrix itself, PyTorch allows you to compute **Jacobian Product**, $v$  for a given input vector v=(v1…vm)�=(�1…��). This is achieved by calling `backward` with v� as an argument. The size of v� should be the same as the size of the original tensor, with respect to which we want to compute the product
+Instead of computing the Jacobian matrix itself, PyTorch allows you to compute **Jacobian Product**, $v^T \cdot J$  for a given input vector $v = \begin{pmatrix} v_1 & v_2 & \dots & v_m \end{pmatrix}$. This is achieved by calling `backward` with $v$ as an argument. The size of $v$ should be the same as the size of the original tensor, with respect to which we want to compute the product.
+```python
+inp = torch.eye(5, requires_grad=True)
+out = (inp+1).pow(2)
+out.backward(torch.ones_like(inp), retain_graph=True)
+```

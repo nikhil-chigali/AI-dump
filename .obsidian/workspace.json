@@ -147,12 +147,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15375af9534b87ac",
+  "active": "38f0299d42e4b4a0",
   "lastOpenFiles": [
     "Images/Pasted image 20230411164322.png",
     "Optimizers.md",
