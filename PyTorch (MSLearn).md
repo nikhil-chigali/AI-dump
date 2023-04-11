@@ -70,4 +70,14 @@ The backward pass kicks off when `.backward()` is called on the DAG root. `au
 -   using the chain rule, propagates all the way to the leaf tensors.
 
 ### DAGs are dynamic in PyTorch
+
 An important thing to note is that the graph is recreated from scratch; after each `.backward()` call, autograd starts populating a new graph. This is exactly what *allows you to use control flow statements in your model*; you can change the shape, size and operations at every iteration if needed.
+
+## Tensor Gradients and Jacobian products
+
+In many cases, we have a scalar loss function, and we need to compute the gradient with respect to some parameters. However, there are cases when the output function is an arbitrary tensor. In this case, PyTorch allows you to compute so-called **Jacobian product**, and not the actual gradient.
+
+For a vector function $\vec{y}=f(\vec{x})$, where
+$\vec{x}=\langle x_1,\dots,x_n\rangle$ and
+$\vec{y}=\langle y_1,\dots,y_m\rangle$, a gradient of $\vec{y}$ with respect to $\vec{x}$ is given by **Jacobian matrix**, whose element $J_{ij}$ contains $\frac{\partial y_{i}}{\partial x_{j}}$.
+$J = {\large \frac {d\vec{f(x)}}{d\vec{x}}} = [\frac{\partial\vec{f(x)}{\partial{}}}]$
