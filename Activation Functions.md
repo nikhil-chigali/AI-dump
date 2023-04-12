@@ -6,3 +6,4 @@
 	$f(x)= {\small \begin{cases} 0, & \text{if } x < 0\\ x, & \text{if } x\geq 0\\ \end{cases}}$
 4. ***Softmax*** takes *logits* - raw value on \[ $-\infty, \infty$ ] and returns probability distribution across all the output labels (i.e., the sum of all the probabilities will equate to 1).  
 	$f(x) = {\large \frac{e^{x_i}}{\Sigma_j {e^{x_j}}}}$ 
+5. ***Log Softmax*** is a stabilized Softmax function. It's simply the logarithm of Softmax function (i.e., it gives log probabilities instead of probabilities). Log probabilitie

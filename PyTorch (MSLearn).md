@@ -77,7 +77,7 @@ An important thing to note is that the graph is recreated from scratch; after ea
 ## Tensor Gradients and Jacobian products
 
 In many cases, we have a scalar loss function, and we need to compute the gradient with respect to some parameters. However, there are cases when the output function is an arbitrary tensor. In this case, PyTorch allows you to compute so-called **Jacobian product**, and not the actual gradient.
-
+![[Linear Algebra#^ef3bda]]
 
 Instead of computing the Jacobian matrix itself, PyTorch allows you to compute **Jacobian Product**, $v^T \cdot J$  for a given input vector $v = \begin{pmatrix} v_1 & v_2 & \dots & v_m \end{pmatrix}$. This is achieved by calling `backward` with $v$ as an argument. The size of $v$ should be the same as the size of the original tensor, with respect to which we want to compute the product.
 ```python
