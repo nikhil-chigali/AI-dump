@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Activation Functions.md",
+                "file": "PyTorch (MSLearn).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Activation Functions.md",
+                "file": "PyTorch (MSLearn).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Activation Functions.md",
+                "file": "PyTorch (MSLearn).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Activation Functions.md"
+                "file": "PyTorch (MSLearn).md"
               }
             }
           },
@@ -166,10 +166,10 @@
   },
   "active": "15375af9534b87ac",
   "lastOpenFiles": [
-    "PyTorch (MSLearn).md",
-    "Math/Linear Algebra.md",
-    "Math",
+    "Math/Algebra.md",
     "Activation Functions.md",
+    "PyTorch (MSLearn).md",
+    "Math",
     "Loss Metrics.md",
     "Negative Log Likelihood^.md",
     "Negative Log Likelihood.md",
