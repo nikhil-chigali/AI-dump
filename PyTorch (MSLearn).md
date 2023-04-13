@@ -60,7 +60,7 @@ print(z_det.requires_grad)
 > - To mark some parameters in your neural network at **frozen parameters**. This is a very common scenario for fine tuning a pre-trained network.
 > - To **speed up computations** when you are only doing forward pass, because computations on tensors that do not track gradients would be more efficient.
 
-Conceptually, #autograd keeps a record of data (tensors) and all executed operations (along with the resulting new tensors) in a **directed acyclic graph (DAG)** consisting of [Function](https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function) objects. In this DAG, leaves are the input tensors, roots are the output tensors. By tracing this graph from roots to leaves, you can automatically compute the gradients using the chain rule.
+Conceptually, #autograd keeps a record of data (tensors) and all executed operations (along with the resulting new tensors) in a **directed acyclic graph (DAG)** consisting of `torch.autograd.Function` objects. In this DAG, leaves are the input tensors, roots are the output tensors. By tracing this graph from roots to leaves, you can automatically compute the gradients using the chain rule.
 In a forward pass, autograd does two things simultaneously:
 -   run the requested operation to compute a resulting tensor
 -   maintain the operation’s _gradient function_ in the DAG.

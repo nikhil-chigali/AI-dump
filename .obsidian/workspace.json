@@ -146,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,9 +166,9 @@
   "active": "15375af9534b87ac",
   "lastOpenFiles": [
     "Math/Algebra.md",
+    "PyTorch (MSLearn).md",
     "Activation Functions.md",
     "Images/Pasted image 20230413093136.png",
-    "PyTorch (MSLearn).md",
     "Images/Pasted image 20230413093023.png",
     "Images/Pasted image 20230411164322.png",
     "Images/Pasted image 20230411144201.png",
