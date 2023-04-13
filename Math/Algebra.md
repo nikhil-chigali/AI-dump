@@ -16,10 +16,14 @@ where 1 – _p_ is the probability that the outcome does not occur.
 
 ![[Pasted image 20230413093136.png]]
 
+# Odds Ratio
+#todo
+
 # Logits
+#todo
 
 # Logistic Function
-Otherwise known as Inverse Logit function takes 
+#todo
 
 # Jacobian Matrix
 For a vector function $\vec{y}=f(\vec{x})$, where
