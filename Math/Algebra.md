@@ -23,7 +23,7 @@ where 1 – _p_ is the probability that the outcome does not occur.
 #todo 
 Mathematically, the logit is the inverse of the standard logistic function $\large \sigma (x)=1/(1+e^{-x})$, so the logit is defined as
 
-	 $\large logit(p) = \sigma^{-1}(p) = ln \frac{p}{1-p}$
+	 $\large logit(p) = \sigma^{-1}(p) = ln \frac{p}{1-p} for p \belongs (0,1)$
 
 If p is a probability, then  _p_ / (1 − _p_) is the corresponding odds; the logit of the probability is the logarithm of the odds, i.e.:
 
