@@ -3,13 +3,17 @@
 # Probability
 
 # Odds
-In probability theory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
+
+In #probabilitytheory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
 
 Odds also have a simple relation with probability: the odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. In mathematical terms, where p is the probability of the outcome:
 
 ${\large {\text{odds}={\frac {p}{1-p}}}}$
 where 1 – _p_ is the probability that the outcome does not occur.
 ![[Pasted image 20230413093136.png]]
+
+# Logistic Function
+Otherwise known as Inverse Logit function takes 
 # Jacobian Matrix
 For a vector function $\vec{y}=f(\vec{x})$, where
 $\vec{x}=\langle x_1,\dots,x_n\rangle$ and
