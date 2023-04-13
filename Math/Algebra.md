@@ -7,7 +7,7 @@
 # Odds
 In #probabilitytheory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
 
-Odds also have a simple relation with probability: the odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. In mathematical terms, where p is the probability of the outcome: $\large f: [0,1] \mapsto (-\infty, \infty)$ 
+Odds also have a simple relation with probability: the odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. In mathematical terms, where p is the probability of the outcome: $\large f: (0,1) \mapsto (-\infty, +\infty)$ 
 
 ${\large {\text{odds}={\frac {p}{1-p}}}}$ 
 
@@ -20,8 +20,9 @@ where 1 – _p_ is the probability that the outcome does not occur.
 #todo
 
 # Logits
-#todo
- 
+#todo 
+Mathematically, the logit is the inverse of the standard logistic function $\sigma (x)=1/(1+e^{-x})$, so the logit is defined as
+ If p is a probability, then  _p_ / (1 − _p_) is the corresponding odds; the logit of the probability is the logarithm of the odds, i.e.:
 
 # Logistic Function
 #todo
