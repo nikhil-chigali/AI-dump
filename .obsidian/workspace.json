@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch (MSLearn).md",
+                "file": "Math/Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch (MSLearn).md",
+                "file": "Math/Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch (MSLearn).md",
+                "file": "Math/Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch (MSLearn).md"
+                "file": "Math/Algebra.md"
               }
             }
           },
@@ -166,20 +166,22 @@
   },
   "active": "15375af9534b87ac",
   "lastOpenFiles": [
-    "Math/Algebra.md",
-    "Activation Functions.md",
+    "Images/Pasted image 20230413093136.png",
     "PyTorch (MSLearn).md",
+    "Activation Functions.md",
+    "Images/Pasted image 20230413093023.png",
+    "Images/Pasted image 20230411164322.png",
+    "Images/Pasted image 20230411144201.png",
+    "Math/Algebra.md",
     "Math",
     "Loss Metrics.md",
     "Negative Log Likelihood^.md",
     "Negative Log Likelihood.md",
-    "Images/Pasted image 20230411164322.png",
     "Optimizers.md",
     "Machine Learning Models.md",
     "Deep Learning Models.md",
     "Evaluation Metrics.md",
     "Images",
-    "Images/Pasted image 20230411144201.png",
     "Todo.md",
     "README.md",
     "2023-04-10.md"
