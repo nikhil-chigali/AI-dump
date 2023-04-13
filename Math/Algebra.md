@@ -2,7 +2,24 @@
 #todo
 
 # Probability
-#todo
+Probability is a measure of the likelihood of an event to occur. Many events cannot be predicted with total certainty.
+	Probability of occurrence of an event P(E) = Number of favorable outcomes / Total Number of outcomes
+
+## General Rules of Probability
+
+### Probability Rule 1
+-   For any event A, 0 ≤ P(A) ≤ 1.
+
+### Probability Rule 2
+-  The sum of the probabilities of all possible outcomes is 1.
+
+### Probability Rule 3 (T)
+- 
+### Probability Rule 1
+### Probability Rule 1
+### Probability Rule 1
+### Probability Rule 1
+
 
 # Odds
 In #probabilitytheory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
@@ -31,10 +48,17 @@ Logistic function is a common example of a #sigmoid function (a function having 
 As Logit maps probabilites to real number; i.e., $\large f: (0,1) \mapsto \mathbb{R}$, Logistic function is useful in converting real values to probability range  $\large f: \mathbb{R} \mapsto (0,1)$ 
 	$\large f(x) = {\large \frac{1}{1+e^{-x}}} = \frac{e^x}{1+e^x}$
 
+> [!info] 
+> Since the **probabilities of independent events multiply**, and logarithms convert multiplication to addition, **log probabilities of independent events add**. 
+> Log probabilities are thus practical for computations, and have an intuitive interpretation in terms of **information theory**: 
+> 	The negative of the average log probability is the information entropy of an event. 
+> Similarly, likelihoods are often transformed to the log scale, and the corresponding log-likelihood can be interpreted as the degree to which an event supports a statistical model. 
+
 > [!note] 
-> Since the **probabilities of independent events multiply**, and logarithms convert multiplication to addition, log probabilities of independent events add. Log probabilities are thus practical for computations, and have an intuitive interpretation in terms of information theory: the negative of the average log probability is the information entropy of an event. Similarly, likelihoods are often transformed to the log scale, and the corresponding log-likelihood can be interpreted as the degree to which an event supports a statistical model. The log probability is widely used in implementations of computations with probability, and is studied as a concept in its own right in some applications of information theory, such as natural language processing.
-> 
-> Representing probabilities, likelihoods and odds on a logarithmic scale has the following practical advantages
+> Representing probabilities, likelihoods and odds on a logarithmic scale has the following practical advantages:
+> 1. **Speed** - Since multiplication is more expensive than addition, taking the product of a high number of probabilities is often faster if they are represented in log form. (The conversion to log form is expensive, but is only incurred once.) Multiplication arises from calculating the probability that multiple independent events occur: the probability that all independent events of interest occur is the product of all these events' probabilities.
+Accuracy. The use of log probabilities improves numerical stability, when the probabilities are very small, because of the way in which computers approximate real numbers.
+Simplicity. Many probability distributions have an exponential form. Taking the log of these distributions eliminates the exponential function, unwrapping the exponent. 
 > 
 # Jacobian Matrix
 For a vector function $\vec{y}=f(\vec{x})$, where
