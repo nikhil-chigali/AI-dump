@@ -13,12 +13,23 @@ Probability is a measure of the likelihood of an event to occur. Many events ca
 ### Probability Rule 2
 -  The sum of the probabilities of all possible outcomes is 1.
 
-### Probability Rule 3 (T)
-- 
-### Probability Rule 1
-### Probability Rule 1
-### Probability Rule 1
-### Probability Rule 1
+### Probability Rule 3 (The Complement Rule)
+-  P(not A) = 1 – P(A)
+-  that is, the probability that an event does not occur is 1 minus the probability that it does occur.
+
+### Probability Rule 4 (The Addition Rule for Disjoint Events)
+- If A and B are disjoint events, then P(A or B) = P(A) + P(B)
+
+### Probability Rule 5 (The General Addition Rule)
+-  P(A or B) = P(A) + P(B) - P(A and B)
+
+### Probability Rule 6 (The Multiplication Rule for Independent Events)
+- If A and B are two INDEPENDENT events, then P(A and B) = P(A) * P(B)
+
+### Probability Rule 7 (Conditional Probability Rule)
+- The conditional probability of event B, given event A, is P(B | A) = P(A and B) / P(A)
+
+### Probability Rule 7 (Conditional Probability Rule)
 
 
 # Odds
