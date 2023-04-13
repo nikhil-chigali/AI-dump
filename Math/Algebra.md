@@ -21,7 +21,7 @@ where 1 – _p_ is the probability that the outcome does not occur.
 
 # Logits
 #todo
-
+ 
 
 # Logistic Function
 #todo
