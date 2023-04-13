@@ -25,12 +25,13 @@ Mathematically, the logit is the inverse of the standard logistic function $
 
 	 $\large logit(p) = \sigma^{-1}(p) = ln \frac{p}{1-p} \;\; \text{for p} \in (0,1)$
 
-Because of this, the logit is also called the **log-odds** since it is equal to the logarithm of the odds ${\large \frac  {p}{1-p}}$ where *p* is a probability. Thus, the logit is a type of function that maps probability values from $\large (0,1)$ to real numbers in ${\large (-\infty ,+\infty )}$ which is akin to *probit* (**prob**ability un**it**). However, calculating probit is computationally more expensive hence the use of  
-
-
+Because of this, the logit is also called the **log-odds** since it is equal to the logarithm of the odds ${\large \frac  {p}{1-p}}$ where *p* is a probability. Thus, the logit is a type of function that maps probability values from $\large (0,1)$ to real numbers in ${\large (-\infty ,+\infty )}$ which is akin to *probit* (**prob**ability un**it**). However, calculating probit is computationally more expensive hence the use of *logit* was normalized.
 
 # Logistic Function
 #todo
+Logistic function is a common example of a Sigmoid function (a function having a characteristic "S"-shaped curve), is denoted by $\large \sigma$ and is the inverse of logit function.
+As Logit maps probabilites to real number; i.e., $\large f: (0,1) \mapsto \mathbb{R}$, Logistic function is useful in converting real values to probability range  $\large f: \mathbb{R} \mapsto (0,1)$ ^43f596
+
 
 # Jacobian Matrix
 For a vector function $\vec{y}=f(\vec{x})$, where
