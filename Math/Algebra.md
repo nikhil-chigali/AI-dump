@@ -1,5 +1,5 @@
 # Likelihood
-#todo
+#task
 
 # Probability
 Probability is a measure of the likelihood of an event to occur. Many events cannot be predicted with total certainty.
@@ -23,6 +23,9 @@ Probability is a measure of the likelihood of an event to occur. Many events ca
 -  P(A or B) = P(A) + P(B) - P(A and B)
 
 ### Probability Rule 6 (The Multiplication Rule for Independent Events)
+
+^547e20
+
 - If A and B are two INDEPENDENT events, then P(A and B) = P(A) * P(B) ^fbf82d
 
 ### Probability Rule 7 (Conditional Probability Rule)
@@ -44,7 +47,7 @@ where 1 – _p_ is the probability that the outcome does not occur.
 ![[Pasted image 20230413093136.png]]
 
 # Odds Ratio
-#todo
+#task
 
 # Logits
 Mathematically, the logit is the inverse of the standard logistic function $\large \sigma (x)=1/(1+e^{-x})$, so the logit is defined as
@@ -68,10 +71,11 @@ As Logit maps probabilites to real number; i.e., $\large f: (0,1) \mapsto \mathb
 
 > [!note] 
 > Representing probabilities, likelihoods and odds on a logarithmic scale has the following practical advantages:
-> 1. **Speed** - Since multiplication is more expensive than addition, taking the product of a high number of probabilities is often faster if they are represented in log form. (The conversion to log form is expensive, but is only incurred once.) Multiplication arises from calculating the probability that multiple independent events occur: the probability that all independent events of interest occur is the product of all these events' probabilities.
-Accuracy. The use of log probabilities improves numerical stability, when the probabilities are very small, because of the way in which computers approximate real numbers.
-Simplicity. Many probability distributions have an exponential form. Taking the log of these distributions eliminates the exponential function, unwrapping the exponent. 
+> 1. **Speed** - Since multiplication is more expensive than addition, taking the product of a high number of probabilities is often faster if they are represented in log form. (The conversion to log form is expensive, but is only incurred once.) Multiplication arises from ![[Algebra#^547e20]]
+> 2. **Accuracy** - The use of log probabilities improves numerical stability, when the probabilities are very small, because of the way in which computers approximate real numbers.
+> 3. **Simplicity** - Many probability distributions have an exponential form. Taking the log of these distributions eliminates the exponential function, unwrapping the exponent. 
 > 
+
 # Jacobian Matrix
 For a vector function $\vec{y}=f(\vec{x})$, where
 $\vec{x}=\langle x_1,\dots,x_n\rangle$ and
