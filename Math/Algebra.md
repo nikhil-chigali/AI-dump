@@ -1,19 +1,26 @@
 # Likelihood
+#todo
 
 # Probability
+#todo
 
 # Odds
-
 In #probabilitytheory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
 
-Odds also have a simple relation with probability: the odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. In mathematical terms, where p is the probability of the outcome:
+Odds also have a simple relation with probability: the odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. In mathematical terms, where p is the probability of the outcome: $\large f: [0,1] \mapsto (-\infty, \infty)$ 
 
-${\large {\text{odds}={\frac {p}{1-p}}}}$
+${\large {\text{odds}={\frac {p}{1-p}}}}$ 
+
 where 1 – _p_ is the probability that the outcome does not occur.
+
+
 ![[Pasted image 20230413093136.png]]
+
+# Logits
 
 # Logistic Function
 Otherwise known as Inverse Logit function takes 
+
 # Jacobian Matrix
 For a vector function $\vec{y}=f(\vec{x})$, where
 $\vec{x}=\langle x_1,\dots,x_n\rangle$ and
@@ -22,4 +29,4 @@ $J = {\large \frac {d\vec{f(x)}}{d\vec{x}}} = \large \begin{bmatrix} \frac{\part
 
 > [!note]
 ![[Pasted image 20230411164322.png]]
-> A nonlinear map $f: \mathbb{R}^2 \mapsto \mathbb{R}^2$ sends a small square (left, in red) to a distorted parallelogram (right, in red). The Jacobian at a point gives the best linear approximation of the distorted parallelogram near that point (right, in translucent white), and the **Jacobian determinant** gives the ratio of the area of the approximating parallelogram to that of the original square. #math
+> A nonlinear map $f: \mathbb{R}^2 \mapsto \mathbb{R}^2$ sends a small square (left, in red) to a distorted parallelogram (right, in red). The Jacobian at a point gives the best linear approximation of the distorted parallelogram near that point (right, in translucent white), and the **Jacobian determinant** gives the ratio of the area of the approximating parallelogram to that of the original square. 
