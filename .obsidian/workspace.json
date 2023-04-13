@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Activation Functions.md",
+                "file": "Math/Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Activation Functions.md",
+                "file": "Math/Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Activation Functions.md",
+                "file": "Math/Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Activation Functions.md"
+                "file": "Math/Algebra.md"
               }
             }
           },
@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -163,11 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15375af9534b87ac",
+  "active": "a02ae156b0824a52",
   "lastOpenFiles": [
+    "Activation Functions.md",
     "Math/Algebra.md",
     "PyTorch (MSLearn).md",
-    "Activation Functions.md",
     "Images/Pasted image 20230413093136.png",
     "Images/Pasted image 20230413093023.png",
     "Images/Pasted image 20230411164322.png",
