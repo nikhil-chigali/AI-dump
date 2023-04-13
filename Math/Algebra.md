@@ -6,7 +6,6 @@ Probability is a measure of the likelihood of an event to occur. Many events ca
 	Probability of occurrence of an event P(E) = Number of favorable outcomes / Total Number of outcomes
 
 ## General Rules of Probability
-
 ### Probability Rule 1
 -   For any event A, 0 ≤ P(A) ≤ 1.
 
@@ -24,13 +23,13 @@ Probability is a measure of the likelihood of an event to occur. Many events ca
 -  P(A or B) = P(A) + P(B) - P(A and B)
 
 ### Probability Rule 6 (The Multiplication Rule for Independent Events)
-- If A and B are two INDEPENDENT events, then P(A and B) = P(A) * P(B)
+- If A and B are two INDEPENDENT events, then P(A and B) = P(A) * P(B) ^fbf82d
 
 ### Probability Rule 7 (Conditional Probability Rule)
 - The conditional probability of event B, given event A, is P(B | A) = P(A and B) / P(A)
 
-### Probability Rule 7 (Conditional Probability Rule)
-
+### Probability Rule 8 (General Multiplication Rule)
+- For any two events A and B, P(A and B) = P(A) * P(B | A)
 
 # Odds
 In #probabilitytheory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
@@ -60,9 +59,11 @@ As Logit maps probabilites to real number; i.e., $\large f: (0,1) \mapsto \mathb
 	$\large f(x) = {\large \frac{1}{1+e^{-x}}} = \frac{e^x}{1+e^x}$
 
 > [!info] 
-> Since the **probabilities of independent events multiply**, and logarithms convert multiplication to addition, **log probabilities of independent events add**. 
-> Log probabilities are thus practical for computations, and have an intuitive interpretation in terms of **information theory**: 
-> 	The negative of the average log probability is the information entropy of an event. 
+> ![[Algebra#^fbf82d]]
+> Since the **probabilities of independent events multiply**  , and logarithms convert multiplication to addition, **log probabilities of independent events add**. 
+> Log probabilities are thus practical for computations, and have an intuitive interpretation in terms of #informationtheory: 
+> - The negative of the average log probability is the information entropy of an event. 
+> 
 > Similarly, likelihoods are often transformed to the log scale, and the corresponding log-likelihood can be interpreted as the degree to which an event supports a statistical model. 
 
 > [!note] 
