@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "Backlog.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "Backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "Backlog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Algebra.md"
+                "file": "Backlog.md"
               }
             }
           },
@@ -165,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8516e200aa579c4d",
+  "active": "15375af9534b87ac",
   "lastOpenFiles": [
-    "Todo.md",
     "Math/Algebra.md",
+    "Backlog.md",
     "Activation Functions.md",
     "PyTorch (MSLearn).md",
     "Images/Pasted image 20230413093136.png",

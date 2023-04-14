@@ -5,3 +5,4 @@
 - [ ] #task Information Theory
 - [ ] #task Entropy
 - [ ] #task Odds Ratio
+- [ ] #task Likelihood
