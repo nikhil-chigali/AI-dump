@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backlog.md",
+                "file": "Math/Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backlog.md",
+                "file": "Math/Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backlog.md",
+                "file": "Math/Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backlog.md"
+                "file": "Math/Algebra.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "15375af9534b87ac",
   "lastOpenFiles": [
-    "Math/Algebra.md",
     "Backlog.md",
+    "Math/Algebra.md",
     "Activation Functions.md",
     "PyTorch (MSLearn).md",
     "Images/Pasted image 20230413093136.png",
