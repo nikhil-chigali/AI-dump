@@ -85,3 +85,12 @@ inp = torch.eye(5, requires_grad=True)
 out = (inp+1).pow(2)
 out.backward(torch.ones_like(inp), retain_graph=True)
 ```
+
+
+#todo Training loop
+#todo Testing loop
+#todo Pytorch Autocast
+#todo GradScaler
+#todo Gradient Accumulation
+#todo Garbage Collection to prevent CUDA out of memory
+#todo Pytorch 2.0 features

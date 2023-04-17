@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "PyTorch (MSLearn).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "PyTorch (MSLearn).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "PyTorch (MSLearn).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Algebra.md"
+                "file": "PyTorch (MSLearn).md"
               }
             }
           },
@@ -147,12 +147,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,10 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15375af9534b87ac",
+  "active": "38f0299d42e4b4a0",
   "lastOpenFiles": [
-    "Backlog.md",
     "Math/Algebra.md",
+    "Backlog.md",
     "Activation Functions.md",
     "PyTorch (MSLearn).md",
     "Images/Pasted image 20230413093136.png",
