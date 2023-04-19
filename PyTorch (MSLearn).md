@@ -108,6 +108,24 @@ def train(dataloader, model, loss_fn, optimizer):
 
 ## Test Loop
 
+```python
+def test(dataloader, model, loss_fn):
+	size = len(dataloader)
+	test_loss, correct = 0, 0
+
+	with torch.no_grad():
+		for X,y in dataloader:
+			# Compute prediction and loss 
+			pred = model(X)
+			test_loss += loss_fn(pred, y).item()
+			correct += (pred.argmax(1)==y).type(torch.float).sum().item()
+			
+
+		if batch_num % 100 == 0:
+			loss, current = loss.item(), batch_num * len(X)
+			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+```
+
 
 
 ---
