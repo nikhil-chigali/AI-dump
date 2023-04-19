@@ -87,9 +87,10 @@ out.backward(torch.ones_like(inp), retain_graph=True)
 ```
 
 
+[Reference](https://wandb.ai/wandb_fc/tips/reports/How-To-Write-Efficient-Training-Loops-in-PyTorch--VmlldzoyMjg4OTk5 )
 #todo Training loop
 #todo Testing loop
-#todo Pytorch Autocast
+#todo Pytorch Autocast 
 #todo GradScaler
 #todo Gradient Accumulation
 #todo Garbage Collection to prevent CUDA out of memory
