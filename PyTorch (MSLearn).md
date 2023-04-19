@@ -86,7 +86,31 @@ out = (inp+1).pow(2)
 out.backward(torch.ones_like(inp), retain_graph=True)
 ```
 
+## Training Loop
 
+```python
+def train(dataloader, model, loss_fn, optimizer):
+	size = len(dataloader)
+	for batch_num, (X,y) in enumerate(dataloader):
+		# Compute prediction and loss
+		pred = model(X)
+		loss = loss_fn(pred, y)
+
+		# Backpropagation
+		optimizer.zero_grad()
+		loss.backward()
+		optimizer.step()
+
+		if batch_num % 100 == 0:
+			loss, current = loss.item(), batch_num * len(X)
+			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+```
+
+## Test Loop
+
+
+
+---
 [Reference](https://wandb.ai/wandb_fc/tips/reports/How-To-Write-Efficient-Training-Loops-in-PyTorch--VmlldzoyMjg4OTk5 )
 #todo Training loop
 #todo Testing loop
