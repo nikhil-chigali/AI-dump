@@ -156,7 +156,7 @@ When entering an autocast-enabled region, Tensors may be any type. You should no
 
 [`autocast`](https://pytorch.org/docs/stable/amp.html#torch.autocast "torch.autocast") should wrap only the forward pass(es) of your network, including the loss computation(s). Backward passes under autocast are not recommended. Backward ops run in the same type that autocast used for corresponding forward ops.
 
-Examp
+
 
 ---
 #todo Pytorch Autocast 
