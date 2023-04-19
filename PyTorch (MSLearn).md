@@ -145,6 +145,7 @@ print("Saved Pytorch Model State to model.pth")
 ## [Efficient PyTorch Training loops](https://wandb.ai/wandb_fc/tips/reports/How-To-Write-Efficient-Training-Loops-in-PyTorch--VmlldzoyMjg4OTk5 )
 We can make our training loops more efficient by leveraging Pytorch's **Automatic Mixed Precision (AMP)** package - `torch.amp`
 The idea behind Automatic Mixed Precision is to conveniently use mixed precisions for different operations. Some operations like linear layers and convolutions, are much faster in lower precision floating point datatype - `(lower_precision_fp): torch.float16(half)`. While other operations, like reductions, often require the dynamic range of `torch.float32` 
+Automatic Mixed Precision Training with datatype of `torch.float16` uses `torch.autocast` and `torch.cuda.amp.GradScaler` 
 ### Autocast in PyTorch
 
 
