@@ -180,10 +180,10 @@ def train(dataloader, model, loss_fn, optimizer):
 			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
 ```
 
-### 
+### Gradient Scaling
+
 
 ---
-#todo Pytorch Autocast 
 #todo GradScaler
 #todo Gradient Accumulation
 #todo Garbage Collection to prevent CUDA out of memory
