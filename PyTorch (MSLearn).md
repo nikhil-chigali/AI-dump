@@ -146,8 +146,8 @@ print("Saved Pytorch Model State to model.pth")
 We can make our training loops more efficient by leveraging Pytorch's **Automatic Mixed Precision (AMP)** package - `torch.amp`
 The idea behind Automatic Mixed Precision is to conveniently use mixed precisions for different operations. Some operations like linear layers and convolutions, are much faster in lower precision floating point datatype - `(lower_precision_fp): torch.float16(half)`. While other operations, like reductions, often require the dynamic range of `torch.float32` 
 Automatic Mixed Precision Training with datatype of `torch.float16` uses `torch.autocast` and `torch.cuda.amp.GradScaler` 
-### Autocast in PyTorch
 
+### Autocast in PyTorch
 Instances of [`autocast`](https://pytorch.org/docs/stable/amp.html#torch.autocast "torch.autocast") serve as context managers or decorators that allow regions of your script to run in mixed precision.
 
 In these regions, ops run in an op-specific dtype chosen by autocast to improve performance while maintaining accuracy. 
@@ -156,11 +156,35 @@ When entering an autocast-enabled region, Tensors may be any type. You should no
 
 [`autocast`](https://pytorch.org/docs/stable/amp.html#torch.autocast "torch.autocast") should wrap only the forward pass(es) of your network, including the loss computation(s). Backward passes under autocast are not recommended. Backward ops run in the same type that autocast used for corresponding forward ops.
 
+One of the most common reasons for the **Out Of Memory (OOM) error** encountered in training large deep learning models is the problem of memory utilization. By default, PyTorch uses float32 to represent model parameters. For any decently sized model, that amounts to a lot of memory. If you have a decent accelerator with, say, 16GB of RAM, you probably won't be able to train bigger models. You probably won't even be able to compute a single forward pass through a batch of data. One possible solution to this problem is to automatically cast your tensors to a smaller memory footprint. Say float16 or even integer values!
 
+#### Train loop with Autocast
+```python
+def train(dataloader, model, loss_fn, optimizer):
+	size = len(dataloader)
+	for batch_num, (X,y) in enumerate(dataloader):
+		# ✨ Autocasting ✨
+		with torch.cuda.amp.autocast():
+			# Forward pass
+			pred = model(X)
+			# Compute Loss
+			loss = loss_fn(pred, y)
+
+		# Backpropagation
+		optimizer.zero_grad()
+		loss.backward()
+		optimizer.step()
+
+		if batch_num % 100 == 0:
+			loss, current = loss.item(), batch_num * len(X)
+			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+```
+
+### 
 
 ---
 #todo Pytorch Autocast 
 #todo GradScaler
 #todo Gradient Accumulation
 #todo Garbage Collection to prevent CUDA out of memory
-#todo Pytorch 2.0 features
+#todo [Pytorch 2.0 features](https://wandb.ai/capecape/pt2/reports/Why-You-Should-Upgrade-Your-Code-to-PyTorch-2-0--VmlldzozODUyMzcw)
