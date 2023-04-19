@@ -148,6 +148,15 @@ The idea behind Automatic Mixed Precision is to conveniently use mixed precision
 Automatic Mixed Precision Training with datatype of `torch.float16` uses `torch.autocast` and `torch.cuda.amp.GradScaler` 
 ### Autocast in PyTorch
 
+Instances of [`autocast`](https://pytorch.org/docs/stable/amp.html#torch.autocast "torch.autocast") serve as context managers or decorators that allow regions of your script to run in mixed precision.
+
+In these regions, ops run in an op-specific dtype chosen by autocast to improve performance while maintaining accuracy. 
+
+When entering an autocast-enabled region, Tensors may be any type. You should not call `half()` or `bfloat16()` on your model(s) or inputs when using autocasting.
+
+[`autocast`](https://pytorch.org/docs/stable/amp.html#torch.autocast "torch.autocast") should wrap only the forward pass(es) of your network, including the loss computation(s). Backward passes under autocast are not recommended. Backward ops run in the same type that autocast used for corresponding forward ops.
+
+Examp
 
 ---
 #todo Pytorch Autocast 
