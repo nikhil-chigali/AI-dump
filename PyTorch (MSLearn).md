@@ -87,7 +87,6 @@ out.backward(torch.ones_like(inp), retain_graph=True)
 ```
 
 ## Training Loop
-
 ```python
 def train(dataloader, model, loss_fn, optimizer):
 	size = len(dataloader)
@@ -107,7 +106,6 @@ def train(dataloader, model, loss_fn, optimizer):
 ```
 
 ## Test Loop
-
 ```python
 def test(dataloader, model, loss_fn):
 	size = len(dataloader)
@@ -121,17 +119,34 @@ def test(dataloader, model, loss_fn):
 			correct += (pred.argmax(1)==y).type(torch.float).sum().item()
 			
 
-		if batch_num % 100 == 0:
-			loss, current = loss.item(), batch_num * len(X)
-			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+	test_loss /= size
+	correct /= size
+	print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg Loss: {test_loss:>8f}")
 ```
 
+## Model training
+```python
+# Initialize loss and optimizer
+loss_fn = nn.CrossEntropyLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
+
+epochs = 10
+for t in range(epochs):
+	print(f"Epoch {t+1}\n-------------------------")
+	train_loop(train_loader, model, loss_fn, optimizer)
+	test_loop(test_loader, model, loss_fn)
+print("Done!")
+
+# Saving the model
+torch.save(model.state_dict(), "data/model.pth")
+print("Saved Pytorch Model State to model.pth")
+```
+
+## [Efficient PyTorch Training loops](https://wandb.ai/wandb_fc/tips/reports/How-To-Write-Efficient-Training-Loops-in-PyTorch--VmlldzoyMjg4OTk5 )
+### Autocast in PyTorch
 
 
 ---
-[Reference](https://wandb.ai/wandb_fc/tips/reports/How-To-Write-Efficient-Training-Loops-in-PyTorch--VmlldzoyMjg4OTk5 )
-#todo Training loop
-#todo Testing loop
 #todo Pytorch Autocast 
 #todo GradScaler
 #todo Gradient Accumulation
