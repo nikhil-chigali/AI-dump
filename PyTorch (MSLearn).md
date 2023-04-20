@@ -195,16 +195,18 @@ def train(dataloader, model, loss_fn, optimizer):
 	for batch_num, (X,y) in enumerate(dataloader):
 		# ✨ Autocasting ✨
 		with torch.cuda.amp.autocast():
-			# Forward pass
+			## Forward pass
 			pred = model(X)
-			# Compute Loss
+			## Compute Loss
 			loss = loss_fn(pred, y)
 
 		# Backpropagation
 		optimizer.zero_grad()
-		# ✨ Scaling Gradients ✨
+		## ✨ Scaling Gradients ✨
 		scaler.scale(loss).backward()
+		## ✨ Unscaling Gradients ✨
 		scaler.step(optimizer)
+		## ✨ Updating the Scale factor ✨
 		scaler.update()
 
 		if batch_num % 100 == 0:
@@ -213,9 +215,16 @@ def train(dataloader, model, loss_fn, optimizer):
 ```
 
 > [!info]
-> **scaler.step(optimizer)** operation carries out the following two operations:
-> 1. Internally invokes `unscale_(optimizer)` (unless `unscale_()` was explicitly called for `optimizer` earil)
->  
+> **scaler.step(optimizer, \*args, \*\*kwargs)** operation carries out the following two operations:
+> 1. Internally invokes `unscale_(optimizer)` (unless `unscale_()` was explicitly called for `optimizer` earlier in the iteration). As part of the `unscale_()`, gradients are checked for inf/NaNs.
+> 2. If no inf/NaN gradients are found, invokes `optimizer.step()` using the unscaled gradients. Otherwise, `optimizer.step()` is skipped to avoid corrupting the params.
+> `*args` and `**kwargs` are forwarded to `optimizer.step()`
+> 
+> scaler.update()
+> 
+
+
+  
 
 
 ---
