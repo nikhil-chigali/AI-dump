@@ -181,6 +181,41 @@ def train(dataloader, model, loss_fn, optimizer):
 ```
 
 ### Gradient Scaling
+If the forward pass for a particular op has `float16` inputs, the backward pass for that op will produce `float16` gradients. Gradient values with small magnitudes may not be representable in `float16`. These values will flush to zero (“underflow” - Not to be confused with vanishing gradients, these gradients might contribute to the learning process but are skipped because of computational limits), so the update for the corresponding parameters will be lost.
+
+To prevent underflow, “gradient scaling” multiplies the network’s loss(es) by a scale factor and invokes a backward pass on the scaled loss(es). Gradients flowing backward through the network are then scaled by the same factor. In other words, gradient values have a larger magnitude, so they don’t flush to zero.
+
+Each parameter’s gradient (`.grad` attribute) should be unscaled before the optimizer updates the parameters, so the scale factor does not interfere with the learning rate.
+
+#### Train loop with Autocast and Gradient Scaling
+```python
+def train(dataloader, model, loss_fn, optimizer):
+	size = len(dataloader)
+	scaler = torch.cuda.amp.GradScaler()
+	for batch_num, (X,y) in enumerate(dataloader):
+		# ✨ Autocasting ✨
+		with torch.cuda.amp.autocast():
+			# Forward pass
+			pred = model(X)
+			# Compute Loss
+			loss = loss_fn(pred, y)
+
+		# Backpropagation
+		optimizer.zero_grad()
+		# ✨ Scaling Gradients ✨
+		scaler.scale(loss).backward()
+		scaler.step(optimizer)
+		scaler.update()
+
+		if batch_num % 100 == 0:
+			loss, current = loss.item(), batch_num * len(X)
+			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+```
+
+> [!info]
+> **scaler.step(optimizer)** operation carries out the following two operations:
+> 1. Internally invokes `unscale_(optimizer)` (unless `unscale_()` was explicitly called for `optimizer` earil)
+>  
 
 
 ---
