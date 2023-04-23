@@ -220,10 +220,12 @@ def train(dataloader, model, loss_fn, optimizer):
 > 2. If no inf/NaN gradients are found, invokes `optimizer.step()` using the unscaled gradients. Otherwise, `optimizer.step()` is skipped to avoid corrupting the params.
 > `*args` and `**kwargs` are forwarded to `optimizer.step()`
 > 
-> scaler.update()
+> **scaler.update()** 
+> 1. If any optimizer steps were skipped the scale is multiplied by `backoff_factor` to reduce it. If `growth_interval` unskipped iterations occurred consecutively, the scale is multiplied by `growth_factor` to increase it.
 > 
 
-
+### Gradient Accumulation
+While training LLMs, larger batch sizes lead to better convergence possibilities. But more often than not, we cannot fit large batches into our machine. 
   
 
 
