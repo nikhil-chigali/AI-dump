@@ -225,8 +225,42 @@ def train(dataloader, model, loss_fn, optimizer):
 > 
 
 ### Gradient Accumulation
-While training LLMs, larger batch sizes lead to better convergence possibilities. But more often than not, we cannot fit large batches into our machine. 
-  
+While training LLMs, larger batch sizes lead to better convergence possibilities. But more often than not, we cannot fit large batches into our machine. Hence, we prefer something called Gradient Accumulation.
+In Gradient accumulation, instead of running backprop after every forward prop, we compute a few forward props, accumulate the gradients and then run backprop. 
+1. We normalize the loss with regard to the number of gradient accumulation steps
+2. Only update the optimizer every chunk, the number of chunks being a number of steps/accumulation steps. Or at the end of the data loader.
+
+#### Train loop with Autocast, Gradient Scaling and Accumulation
+```python
+def train(dataloader, model, loss_fn, optimizer):
+	size = len(dataloader)
+	NUM_ACC_STEPS = 4
+	scaler = torch.cuda.amp.GradScaler()
+	for batch_num, (X,y) in enumerate(dataloader):
+		# ✨ Autocasting ✨
+		with torch.cuda.amp.autocast():
+			## Forward pass
+			pred = model(X)
+			## Compute Loss
+			loss = loss_fn(pred, y)
+			# Normalize the gradients
+			loss /= NUM_ACC_STEPS
+			
+		# Backpropagation
+		## ✨ Scaling and Accumulating gradients ✨
+		scaler.scale(loss).backward()
+
+		if (batch_num+1)
+		optimizer.zero_grad()
+		## ✨ Unscaling Gradients ✨
+		scaler.step(optimizer)
+		## ✨ Updating the Scale factor ✨
+		scaler.update()
+
+		if batch_num % 100 == 0:
+			loss, current = loss.item(), batch_num * len(X)
+			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+```
 
 
 ---
