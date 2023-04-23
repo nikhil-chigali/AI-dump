@@ -304,8 +304,10 @@ def train(dataloader, model, loss_fn, optimizer):
 			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
 ```
 
-### PyTorch 2.0 Compiled model
-
+### PyTorch 2.0 
+Two new interesting features of Pytorch 2.0 are:
+1. `torch.set_default_device`: This enables to setup your device globally! no more `to("cuda")` calls all over your code.
+2. `torch.compile` function that promises extreme throughput on NVIDIA GPUs. Simply put, you wrap your model with `compiled_model = torch.compile(model)` and you are good to go! Normally, you get a nice performance boost from 10% to 100%, depending on the model! 
 
 ```python
 # default: optimizes for large models, low compile-time
