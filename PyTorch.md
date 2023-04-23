@@ -247,24 +247,62 @@ def train(dataloader, model, loss_fn, optimizer):
 			loss /= NUM_ACC_STEPS
 			
 		# Backpropagation
-		## ✨ Scaling and Accumulating gradients ✨
+		## ✨ Scaling gradients ✨
 		scaler.scale(loss).backward()
 
-		if (batch_num+1)
-		optimizer.zero_grad()
-		## ✨ Unscaling Gradients ✨
-		scaler.step(optimizer)
-		## ✨ Updating the Scale factor ✨
-		scaler.update()
+		# ✨ Gradient Accumulation ✨
+		if (batch_num + 1) % NUM_ACC_STEPS == 0 or batch_num + 1 == size: 
+			optimizer.zero_grad()
+			## ✨ Unscaling Gradients ✨
+			scaler.step(optimizer)
+			## ✨ Updating the Scale factor ✨
+			scaler.update()
 
 		if batch_num % 100 == 0:
 			loss, current = loss.item(), batch_num * len(X)
 			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
 ```
 
+### Clearing up the Cache
+Another method is to avoid the CUDA Out Of Memory Error altogether by always remembering to clean up your cache using `gc` and `torch` whenever possible in order to free up space.
+
+```python
+import gc
+
+def train(dataloader, model, loss_fn, optimizer):
+	size = len(dataloader)
+	NUM_ACC_STEPS = 4
+	scaler = torch.cuda.amp.GradScaler()
+	for batch_num, (X,y) in enumerate(dataloader):
+		# ✨ Autocasting ✨
+		with torch.cuda.amp.autocast():
+			## Forward pass
+			pred = model(X)
+			## Compute Loss
+			loss = loss_fn(pred, y)
+			# Normalize the gradients
+			loss /= NUM_ACC_STEPS
+			
+		# Backpropagation
+		## ✨ Scaling gradients ✨
+		scaler.scale(loss).backward()
+
+		# ✨ Gradient Accumulation ✨
+		if (batch_num + 1) % NUM_ACC_STEPS == 0 or batch_num + 1 == size: 
+			optimizer.zero_grad()
+			## ✨ Unscaling Gradients ✨
+			scaler.step(optimizer)
+			## ✨ Updating the Scale factor ✨
+			scaler.update()
+		
+		# ✨ Garbage Collection ✨
+		torch.cuda.empty_cache()
+		_ = gc.collect()
+		
+		if batch_num % 100 == 0:
+			loss, current = loss.item(), batch_num * len(X)
+			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
+```
 
 ---
-#todo GradScaler
-#todo Gradient Accumulation
-#todo Garbage Collection to prevent CUDA out of memory
 #todo [Pytorch 2.0 features](https://wandb.ai/capecape/pt2/reports/Why-You-Should-Upgrade-Your-Code-to-PyTorch-2-0--VmlldzozODUyMzcw)
