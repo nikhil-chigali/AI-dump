@@ -304,5 +304,19 @@ def train(dataloader, model, loss_fn, optimizer):
 			print(f"loss: {loss:>7f} [{current:>5d}/{size:>5d}]")
 ```
 
----
-#todo [Pytorch 2.0 features](https://wandb.ai/capecape/pt2/reports/Why-You-Should-Upgrade-Your-Code-to-PyTorch-2-0--VmlldzozODUyMzcw)
+### PyTorch 2.0 Compiled model
+
+
+```python
+# default: optimizes for large models, low compile-time
+#          and no extra memory usage
+compiled_model = torch.compile(model)
+
+# reduce-overhead: optimizes to reduce the framework overhead
+#                and uses some extra memory. Helps speed up small models
+compiled_model = torch.compile(model, mode="reduce-overhead")
+
+# max-autotune: optimizes to produce the fastest model,
+#               but takes a very long time to compile
+compiled_model = torch.compile(model, mode="max-autotune")
+```
