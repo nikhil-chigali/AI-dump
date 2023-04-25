@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Backlog.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Backlog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch.md"
+                "file": "Backlog.md"
               }
             }
           },
@@ -166,8 +166,9 @@
   },
   "active": "15375af9534b87ac",
   "lastOpenFiles": [
-    "Math/Algebra.md",
+    "README.md",
     "PyTorch.md",
+    "Math/Algebra.md",
     "Useful Reads.md",
     "Backlog.md",
     "Activation Functions.md",
@@ -184,7 +185,6 @@
     "Deep Learning Models.md",
     "Evaluation Metrics.md",
     "Images",
-    "README.md",
     "2023-04-10.md"
   ]
 }
