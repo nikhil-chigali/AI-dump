@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b633b81e457fc5a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Feature Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backlog.md",
+                "file": "Feature Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backlog.md",
+                "file": "Feature Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backlog.md"
+                "file": "Feature Engineering.md"
               }
             }
           },
@@ -164,13 +177,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15375af9534b87ac",
+  "active": "b633b81e457fc5a3",
   "lastOpenFiles": [
+    "Backlog.md",
+    "Feature Engineering.md",
     "README.md",
     "PyTorch.md",
     "Math/Algebra.md",
     "Useful Reads.md",
-    "Backlog.md",
     "Activation Functions.md",
     "Images/Pasted image 20230413093136.png",
     "Images/Pasted image 20230413093023.png",
