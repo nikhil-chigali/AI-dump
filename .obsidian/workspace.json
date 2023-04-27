@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful Reads.md",
+                "file": "PyTorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Useful Reads.md",
+                "file": "PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Useful Reads.md",
+                "file": "PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Useful Reads.md"
+                "file": "PyTorch.md"
               }
             }
           },
@@ -166,6 +166,7 @@
   },
   "active": "b633b81e457fc5a3",
   "lastOpenFiles": [
+    "Useful Reads.md",
     "Loss Metrics.md",
     "Activation Functions.md",
     "PyTorch.md",
@@ -173,7 +174,6 @@
     "Backlog.md",
     "README.md",
     "Math/Algebra.md",
-    "Useful Reads.md",
     "Images/Pasted image 20230413093136.png",
     "Images/Pasted image 20230413093023.png",
     "Images/Pasted image 20230411164322.png",
