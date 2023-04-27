@@ -16,7 +16,9 @@ $\large X_{standardized} = \frac{X-\mu}{\sigma}$
 
 Data Standardization properties:
 - Useful when the distribution of the data is Gaussian or unknown
-- Less sensitiv
+- Less sensitive to outliers
+- Changes the shape of the original distribution
+- Preserves relationship between the datapoints
 
 Where, mean is $\mu$; and $\sigma$ is Standard Deviation
 
