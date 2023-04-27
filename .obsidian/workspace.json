@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "15375af9534b87ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backlog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b633b81e457fc5a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Useful Reads.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Useful Reads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Useful Reads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch.md"
+                "file": "Useful Reads.md"
               }
             }
           },
@@ -179,19 +166,19 @@
   },
   "active": "b633b81e457fc5a3",
   "lastOpenFiles": [
+    "Loss Metrics.md",
+    "Activation Functions.md",
+    "PyTorch.md",
     "Feature Engineering.md",
     "Backlog.md",
     "README.md",
-    "PyTorch.md",
     "Math/Algebra.md",
     "Useful Reads.md",
-    "Activation Functions.md",
     "Images/Pasted image 20230413093136.png",
     "Images/Pasted image 20230413093023.png",
     "Images/Pasted image 20230411164322.png",
     "Images/Pasted image 20230411144201.png",
     "Math",
-    "Loss Metrics.md",
     "Negative Log Likelihood^.md",
     "Negative Log Likelihood.md",
     "Optimizers.md",
