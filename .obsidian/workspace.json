@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Optimizers.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Optimizers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch.md",
+                "file": "Optimizers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch.md"
+                "file": "Optimizers.md"
               }
             }
           },
@@ -166,12 +166,15 @@
   },
   "active": "b633b81e457fc5a3",
   "lastOpenFiles": [
+    "Activation Functions.md",
+    "Backlog.md",
+    "Deep Learning Models.md",
+    "Machine Learning Models.md",
+    "Optimizers.md",
+    "PyTorch.md",
     "Useful Reads.md",
     "Loss Metrics.md",
-    "Activation Functions.md",
-    "PyTorch.md",
     "Feature Engineering.md",
-    "Backlog.md",
     "README.md",
     "Math/Algebra.md",
     "Images/Pasted image 20230413093136.png",
@@ -181,9 +184,6 @@
     "Math",
     "Negative Log Likelihood^.md",
     "Negative Log Likelihood.md",
-    "Optimizers.md",
-    "Machine Learning Models.md",
-    "Deep Learning Models.md",
     "Evaluation Metrics.md",
     "Images",
     "2023-04-10.md"

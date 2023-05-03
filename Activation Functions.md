@@ -12,7 +12,7 @@ ReLU(Rectified Linear Unit) used to set the output node to 0 if fuction result i
 	$\large f(x)= {\begin{cases} 0, & \text{if } x < 0\\ x, & \text{if } x\geq 0\\ \end{cases}}$ 
 
 # Softmax  
-Softmax takes *logits* - raw value on \[ $-\infty, \infty$ ] and returns probability distribution across all the output labels (i.e., the sum of all the probabilities will equate to 1).  #classification
+Softmax takes *logits* - raw value on $[-\infty, \infty]$  and returns probability distribution across all the output labels (i.e., the sum of all the probabilities will equate to 1).  #classification
 	$\large f(x) = { \frac{e^{x_i}}{\Sigma_j {e^{x_j}}}}$ 
 
 # Log Softmax 
