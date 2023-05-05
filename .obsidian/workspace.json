@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "def5b5b6179b5af7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -63,6 +74,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "36a5bc413e7cd3e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -164,7 +183,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b633b81e457fc5a3",
+  "active": "def5b5b6179b5af7",
   "lastOpenFiles": [
     "Activation Functions.md",
     "Backlog.md",
