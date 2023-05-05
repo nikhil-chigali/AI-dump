@@ -20,12 +20,14 @@
             }
           },
           {
-            "id": "def5b5b6179b5af7",
+            "id": "650bbe0b830765e8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.7"
+                "file": "Math/Calculus.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimizers.md",
+                "file": "Math/Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimizers.md",
+                "file": "Math/Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimizers.md"
+                "file": "Math/Calculus.md"
               }
             }
           },
@@ -183,13 +185,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "def5b5b6179b5af7",
+  "active": "650bbe0b830765e8",
   "lastOpenFiles": [
+    "Optimizers.md",
+    "Math/Calculus.md",
     "Activation Functions.md",
     "Backlog.md",
     "Deep Learning Models.md",
     "Machine Learning Models.md",
-    "Optimizers.md",
     "PyTorch.md",
     "Useful Reads.md",
     "Loss Metrics.md",
