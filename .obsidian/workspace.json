@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford Uni/README.md",
+                "file": "Introduction to Statistics - Stanford University/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford Uni/README.md",
+                "file": "Introduction to Statistics - Stanford University/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford Uni/README.md",
+                "file": "Introduction to Statistics - Stanford University/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford Uni/README.md"
+                "file": "Introduction to Statistics - Stanford University/README.md"
               }
             }
           },
@@ -174,9 +174,19 @@
   },
   "active": "650bbe0b830765e8",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/__MACOSX",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/12 Multiple Comparisons.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/11 One-way Analysis of Variance.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/10 Analysis of Categorical Data.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/09 Resampling.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/08 Test of Significance.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/07 Confidence Intervals.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/06 Regression.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/05 Sampling Distributions and Central Limit Theorem.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/04 Normal Approximation for Data and Binomial Distribution.pdf",
+    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/03 Probability.pdf",
     "Math/Calculus.md",
-    "Introduction to Statistics - Stanford Uni/README.md",
-    "Introduction to Statistics - Stanford Uni",
+    "Introduction to Statistics - Stanford University/README.md",
     "Optimizers.md",
     "Activation Functions.md",
     "Backlog.md",
@@ -192,11 +202,9 @@
     "Images/Pasted image 20230413093023.png",
     "Images/Pasted image 20230411164322.png",
     "Images/Pasted image 20230411144201.png",
-    "Math",
     "Negative Log Likelihood^.md",
     "Negative Log Likelihood.md",
     "Evaluation Metrics.md",
-    "Images",
     "2023-04-10.md"
   ]
 }
