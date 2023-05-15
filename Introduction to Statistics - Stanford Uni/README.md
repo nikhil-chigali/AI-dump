@@ -1,0 +1,1 @@
+This folder tracks all my personal notes for the course - **Introduction to Statistics** by *Stanford University* on [Coursera](https://www.coursera.org/learn/stanford-statistics#syllabus) 

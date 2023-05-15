@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Calculus.md",
+                "file": "Introduction to Statistics - Stanford Uni/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Calculus.md",
+                "file": "Introduction to Statistics - Stanford Uni/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Calculus.md",
+                "file": "Introduction to Statistics - Stanford Uni/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Calculus.md"
+                "file": "Introduction to Statistics - Stanford Uni/README.md"
               }
             }
           },
@@ -174,8 +174,10 @@
   },
   "active": "650bbe0b830765e8",
   "lastOpenFiles": [
-    "Optimizers.md",
     "Math/Calculus.md",
+    "Introduction to Statistics - Stanford Uni/README.md",
+    "Introduction to Statistics - Stanford Uni",
+    "Optimizers.md",
     "Activation Functions.md",
     "Backlog.md",
     "Deep Learning Models.md",
