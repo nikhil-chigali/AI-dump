@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c6f8459c6bf34a69",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -185,7 +195,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "650bbe0b830765e8",
+  "active": "c6f8459c6bf34a69",
   "lastOpenFiles": [
     "Optimizers.md",
     "Math/Calculus.md",
