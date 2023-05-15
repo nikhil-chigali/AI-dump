@@ -9,4 +9,5 @@ This course explains all the fundamental concepts of statistics and teaches stat
 
 With the exponential growth of Big Data, statiscal literacy is important for the following reasons:
 1. Provides the skills to assess whether the data is sufficient to answer the questions at hand.
-2. Establishes a rigorous framework to quantify uncertainity 
+2. Establishes a rigorous framework to quantify uncertainty.
+3. Provides techniques to effectively communicate the findings of our analyses.

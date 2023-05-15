@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7066f44656fa73a",
+            "id": "b2b481af306056e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md",
+                "file": "Introduction to Statistics - Stanford University/Descriptive Statistics and Visualizing Information.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md",
+                "file": "Introduction to Statistics - Stanford University/Descriptive Statistics and Visualizing Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md",
+                "file": "Introduction to Statistics - Stanford University/Descriptive Statistics and Visualizing Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md"
+                "file": "Introduction to Statistics - Stanford University/Descriptive Statistics and Visualizing Information.md"
               }
             }
           },
@@ -172,11 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7066f44656fa73a",
+  "active": "b2b481af306056e1",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University/README.md",
+    "Introduction to Statistics - Stanford University/Descriptive Statistics and Visualizing Information.md",
     "README.md",
     "Useful Reads.md",
-    "Introduction to Statistics - Stanford University/README.md",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/__MACOSX",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/12 Multiple Comparisons.pdf",
