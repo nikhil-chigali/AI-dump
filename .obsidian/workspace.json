@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c1c16e1577a0a31c",
+        "id": "0a146f8c59528266",
         "type": "tabs",
         "children": [
           {
-            "id": "650bbe0b830765e8",
+            "id": "e7066f44656fa73a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md",
+                "file": "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md",
+                "file": "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University/README.md"
+                "file": "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf"
               }
             }
           },
@@ -172,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "650bbe0b830765e8",
+  "active": "a02ae156b0824a52",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University/README.md",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/__MACOSX",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/12 Multiple Comparisons.pdf",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/11 One-way Analysis of Variance.pdf",
@@ -184,9 +181,7 @@
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/06 Regression.pdf",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/05 Sampling Distributions and Central Limit Theorem.pdf",
     "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/04 Normal Approximation for Data and Binomial Distribution.pdf",
-    "Introduction to Statistics - Stanford University/Intro-To-Statistics_Course-Slides/03 Probability.pdf",
     "Math/Calculus.md",
-    "Introduction to Statistics - Stanford University/README.md",
     "Optimizers.md",
     "Activation Functions.md",
     "Backlog.md",
