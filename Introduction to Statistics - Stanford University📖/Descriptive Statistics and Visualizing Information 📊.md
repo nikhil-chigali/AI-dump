@@ -18,5 +18,10 @@ The **histogram** is similar to a bar graph. It allows blocks with different wid
 ![[Pasted image 20230516125543.png]]
 The areas of the blocks are proportional to frequency. There are 2 kinds of information drawn from a histogram:
 1. **Density** (crowding): The height of the bar tells how many subjects there are for 1 unit on the horizontal scale.
-	Ex: The highest density is around age 19 as $.04 = 4\%$ of all subjects are age 19. In contrast, only about 0.7% of all subjects fall into one year range
-2. **Percentage**
+	Ex: The highest density is around age 19 as $.04 = 4\%$ of all subjects are age 19. In contrast, only about $0.7\%$ of all subjects fall into each one year range for ages 60-80.
+2. **Percentage** (relative frequencies): Those are given by 
+	$area = height \times width$
+	Ex: about 14% of all subjects fall into age range of 60-80, because the corresponding area is $(20 yrs) \times (0.7 \% per year) = 14 \%$ 
+
+## Box-and-Whisker Plot (Box plot)
+![[Pasted image 20230516130417.png]]
