@@ -14,4 +14,9 @@ The **bar graph** is essentially a dot plot put on its side.
 ![[Pasted image 20230516124740.png]]
 
 ## Histogram
-The histogram is similar to a bar graph. T
+The **histogram** is similar to a bar graph. It allows blocks with different widths. 
+![[Pasted image 20230516125543.png]]
+The areas of the blocks are proportional to frequency. There are 2 kinds of information drawn from a histogram:
+1. **Density** (crowding): The height of the bar tells how many subjects there are for 1 unit on the horizontal scale.
+	Ex: The highest density is around age 19 as $.04 = 4\%$ of all subjects are age 19. In contrast, only about 0.7% of all subjects fall into one year range
+2. **Percentage**
