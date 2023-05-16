@@ -51,4 +51,7 @@ Another example, with a time series plot:
 ![[Pasted image 20230516135852.png]]
 
 ## Pitfalls when visualizing data
-* Sophisticated software makes it tempting to produce showy but poor visualizations
+*Sophisticated software makes it tempting to produce showy but poor visualizations
+![[Pasted image 20230516140159.png]]
+
+The *Gettysburg Powerpoint Presentation* by Peter Norvig
