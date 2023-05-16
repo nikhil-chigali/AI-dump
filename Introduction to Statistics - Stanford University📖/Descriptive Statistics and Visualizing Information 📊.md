@@ -36,7 +36,7 @@ The areas of the blocks are proportional to frequency. There are 2 kinds of info
 ![[Pasted image 20230516132335.png]]
 This graph is an example of the `principle of small multiples`
 Histogram depends on the intervals that we select for the blocks of data. 
-In Box plot, the data is automatically divided into 4 quantiles.
+In Box plot, the data is automatically divided into 4 quartiles.
 
 ## Scatter plot
 The **Scatter plot** is used to depict data that come as *pairs*. It is useful to visualize the relationship between 2 variables.

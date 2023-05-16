@@ -10,4 +10,13 @@ Median is marked at $50,000 where half the area of the histogram is below $50,00
 > Mean and Median are the same when the histogram is symmetric
 > ![[Pasted image 20230516145950.png]]
 
-A Histogram which is longer on the right is said to be *skewed* to the right. In such histograms, mean can be much larger than the median. 
+A histogram which is longer on the right is said to be *skewed* to the right. In such histograms, the mean can be much larger than the median. 
+A histogram which is longer on the left is said to be *skewed* to the left. In such histograms, the mean can be much smaller than the median.
+![[Pasted image 20230516150320.png]]
+**For such skewed histograms, it is better to use MEDIAN**
+
+Median is simply the 50th Percentile of the data.
+
+> [!note]
+> **How would you describe the 25th percentile on the example of household income, if you know that the 25th percentile corresponds with a specific number X?**
+	25% of the households have income less than X, and 75% of the households have income greater than X
