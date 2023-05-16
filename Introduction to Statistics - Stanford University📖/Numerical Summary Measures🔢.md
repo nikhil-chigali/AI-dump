@@ -25,10 +25,15 @@ A histogram which is longer on the left is said to be *skewed* to the left. In s
 	25% of the households have income less than X, and 75% of the households have income greater than X
 
 ## Five-number summary
-**Box plot** conveys the following 5 numbers:
-1. Minimum
-2. 25th percentile (1st Quartile)
-3. Median
-4. 75th percentile (3rd Quartile)
-5. Maximum
-![[Pasted image 20230516132354.png]]
+
+![[Descriptive Statistics and Visualizing Information 📊#^b347e4]]
+
+There are two ways to describe a data distribution:
+### 1. Mean and Standard Deviation
+Mean gives the average of the data, denoted by $\large \bar{x}$.
+Standard deviation gives the spread of the data. It's the root of mean of deviations of all data points from its mean raised to the power of 2.
+> [!note]
+> 
+### 2. Median and Interquartile Range
+Optimal when you are dealing with skewed data. 
+Median gives the center point of the data and Interquartile range gives the data between Q1 and Q3

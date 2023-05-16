@@ -24,13 +24,13 @@ The areas of the blocks are proportional to frequency. There are 2 kinds of info
 	Ex: about 14% of all subjects fall into age range of 60-80, because the corresponding area is $(20 yrs) \times (0.7 \% per year) = 14 \%$ 
 
 ## Box-and-Whisker Plot (Box plot)
-**Box plot** conveys the following 5 numbers:
-1. Minimum
-2. 25th percentile (1st Quartile)
-3. Median
-4. 75th percentile (3rd Quartile)
-5. Maximum
-![[Pasted image 20230516132354.png]]
+**Box plot** gives the following five-number summary:
+	1. Minimum
+	2. 25th percentile (1st Quartile)
+	3. Median
+	4. 75th percentile (3rd Quartile)
+	5. Maximum
+	![[Pasted image 20230516132354.png]] ^b347e4
 
 **Box plot** conveys less info than a histogram, but it takes up less space and is well suited for comparing several datasets:
 ![[Pasted image 20230516132335.png]]
