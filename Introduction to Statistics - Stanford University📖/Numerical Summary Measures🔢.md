@@ -20,7 +20,7 @@ A histogram which is longer on the left is said to be *skewed* to the left. In s
 **Median** (**2nd Quartile**) is simply the 50th Percentile of the data
 **3rd Quartile** ⇾ 75th Percentile of the data
 
-> [!note]
+> [!example]
 > **How would you describe the 25th percentile on the example of household income, if you know that the 25th percentile corresponds with a specific number X?**
 	25% of the households have income less than X, and 75% of the households have income greater than X
 
@@ -32,8 +32,17 @@ There are two ways to describe a data distribution:
 ### 1. Mean and Standard Deviation
 Mean gives the average of the data, denoted by $\large \bar{x}$.
 Standard deviation gives the spread of the data. It's the root of mean of deviations of all data points from its mean raised to the power of 2.
-> [!note]
-> 
+
+$\large s = \sqrt{\frac{1}{n}{\Sigma_{i=1}^{n}(x_i-\bar{x})^2}} or \sqrt{\frac{1}{n-1}{\Sigma_{i=1}^{n}(x_i-\bar{x})^2}}$
+> [!example]
+> Assuming we have data including house prices in some particular city, we could potentially use the standard deviation for the following:
+> 1. to know how different the prices in the particular city are
+> 2. to know whether all the prices are around the average
+> 3. looking at two parts of the city, you notice that the average price is actually the same. You would like to know if the data also looks the same / similarly
+
+Both $\bar{x}$ and $s$ are sensitive to a few large or small data points.
+
 ### 2. Median and Interquartile Range
 Optimal when you are dealing with skewed data. 
 Median gives the center point of the data and Interquartile range gives the data between Q1 and Q3
+Mean and Interquartile range are not sensitive to outliers in data.
