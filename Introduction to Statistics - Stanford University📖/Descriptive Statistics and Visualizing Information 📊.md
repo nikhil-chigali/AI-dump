@@ -26,9 +26,9 @@ The areas of the blocks are proportional to frequency. There are 2 kinds of info
 ## Box-and-Whisker Plot (Box plot)
 **Box plot** conveys the following 5 numbers:
 1. Minimum
-2. 25th percentile
+2. 25th percentile (1st Quartile)
 3. Median
-4. 75th percentile
+4. 75th percentile (3rd Quartile)
 5. Maximum
 ![[Pasted image 20230516132354.png]]
 

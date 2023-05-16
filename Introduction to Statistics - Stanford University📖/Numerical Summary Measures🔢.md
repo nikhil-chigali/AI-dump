@@ -15,8 +15,20 @@ A histogram which is longer on the left is said to be *skewed* to the left. In s
 ![[Pasted image 20230516150320.png]]
 **For such skewed histograms, it is better to use MEDIAN**
 
-Median is simply the 50th Percentile of the data.
+### Quartiles
+**1st Quartile** ⇾ 25th Percentile of the data
+**Median** (**2nd Quartile**) is simply the 50th Percentile of the data
+**3rd Quartile** ⇾ 75th Percentile of the data
 
 > [!note]
 > **How would you describe the 25th percentile on the example of household income, if you know that the 25th percentile corresponds with a specific number X?**
 	25% of the households have income less than X, and 75% of the households have income greater than X
+
+## Five-number summary
+**Box plot** conveys the following 5 numbers:
+1. Minimum
+2. 25th percentile (1st Quartile)
+3. Median
+4. 75th percentile (3rd Quartile)
+5. Maximum
+![[Pasted image 20230516132354.png]]
