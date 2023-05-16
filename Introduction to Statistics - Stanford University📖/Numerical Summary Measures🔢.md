@@ -48,4 +48,6 @@ Median gives the center point of the data and Interquartile range gives the data
 Mean and Interquartile range are not sensitive to outliers in data.
 
 > [!note]
-> When each data point in a distribution is increased/decreased by $x\%$, then the Mean, Standard Deviation, Median, and InterQuantileRange will also be scaled by $%\%$
+> When each data point in a distribution is increased/decreased by $x\%$, then the mean, Standard Deviation, Median, and InterQuantileRange will also be scaled by $x\%$.
+> If each data point is increased/decreased by a constant $x$, then mean and median will also change by the same amount. However, standard deviation and IQR will remain unchanged.
+
