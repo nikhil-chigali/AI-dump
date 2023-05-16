@@ -1,4 +1,8 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Images"
+  "attachmentFolderPath": "Images",
+  "spellcheckDictionary": [
+    "multiples✨",
+    "Tufte"
+  ]
 }

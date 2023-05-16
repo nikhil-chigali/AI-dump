@@ -42,3 +42,13 @@ In Box plot, the data is automatically divided into 4 quantiles.
 The **Scatter plot** is used to depict data that come as *pairs*. It is useful to visualize the relationship between 2 variables.
 ![[Pasted image 20230516133136.png]]
 
+## Providing context is KEY for Statistical Analyses 
+Statistical analyses typically compare the observed data to a reference. Therefore, context is essential for graphical integrity. A great way of doing this is by **Principle of small multiples✨**
+	A principle introduced by Edward Tufte. Small Multiples are small, thumbnail-sized representations of multiple images displayed all at once, which **allows the reader to immediately, and in parallel, compare the inter-frame differences**
+The compact size of Box Plot makes it suited for this task:
+![[Pasted image 20230516135825.png]]
+Another example, with a time series plot:
+![[Pasted image 20230516135852.png]]
+
+## Pitfalls when visualizing data
+* Sophisticated software makes it tempting to produce showy but poor visualizations
