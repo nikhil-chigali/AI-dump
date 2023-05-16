@@ -24,4 +24,21 @@ The areas of the blocks are proportional to frequency. There are 2 kinds of info
 	Ex: about 14% of all subjects fall into age range of 60-80, because the corresponding area is $(20 yrs) \times (0.7 \% per year) = 14 \%$ 
 
 ## Box-and-Whisker Plot (Box plot)
-![[Pasted image 20230516130417.png]]
+**Box plot** conveys the following 5 numbers:
+1. Minimum
+2. 25th percentile
+3. Median
+4. 75th percentile
+5. Maximum
+![[Pasted image 20230516132354.png]]
+
+**Box plot** conveys less info than a histogram, but it takes up less space and is well suited for comparing several datasets:
+![[Pasted image 20230516132335.png]]
+This graph is an example of the `principle of small multiples`
+Histogram depends on the intervals that we select for the blocks of data. 
+In Box plot, the data is automatically divided into 4 quantiles.
+
+## Scatter plot
+The **Scatter plot** is used to depict data that come as *pairs*. It is useful to visualize the relationship between 2 variables.
+![[Pasted image 20230516133136.png]]
+
