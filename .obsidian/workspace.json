@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2b481af306056e1",
+            "id": "0e2e328746cdfd5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md"
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md"
               }
             }
           },
@@ -172,8 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2b481af306056e1",
+  "active": "0e2e328746cdfd5d",
   "lastOpenFiles": [
+    "Images/Pasted image 20230516144805.png",
+    "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Images/Pasted image 20230516140159.png",
     "Images/Pasted image 20230516135852.png",
     "Images/Pasted image 20230516135825.png",
@@ -184,9 +187,7 @@
     "Images/Pasted image 20230516130417.png",
     "Images/Pasted image 20230516125543.png",
     "Images/Pasted image 20230516124740.png",
-    "Images/Pasted image 20230516124710.png",
     "Introduction to Statistics - Stanford University📖/README.md",
-    "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "README.md",
     "Useful Reads.md",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf",
