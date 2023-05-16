@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md"
+                "file": "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md"
               }
             }
           },
@@ -174,10 +174,10 @@
   },
   "active": "3860d4b104578331",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Math/Algebra.md",
     "Math/Calculus.md",
-    "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "!Descriptive Statistics and Visualizing Information 📊.md",
     "PyTorch.md",
     "Useful Reads.md",

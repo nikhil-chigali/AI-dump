@@ -46,3 +46,6 @@ Both $\bar{x}$ and $s$ are sensitive to a few large or small data points.
 Optimal when you are dealing with skewed data. 
 Median gives the center point of the data and Interquartile range gives the data between Q1 and Q3
 Mean and Interquartile range are not sensitive to outliers in data.
+
+> [!note]
+> When each data point in a distribution is increased/decreased by $x\%$, then the Mean, Standard Deviation, Median, and InterQuantileRange will also be scaled by $%\%$
