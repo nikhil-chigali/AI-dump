@@ -3,7 +3,7 @@
 
 # Probability
 Probability is a measure of the likelihood of an event to occur. Many events cannot be predicted with total certainty.
-	Probability of occurrence of an event P(E) = Number of favorable outcomes / Total Number of outcomes
+	Probability of occurrence of an event P(E) = Number of favorable outcomes / Total Number of outcomes ^33cf6a
 
 ## General Rules of Probability
 ### Probability Rule 1
