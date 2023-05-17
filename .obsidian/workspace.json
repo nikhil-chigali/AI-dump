@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 291.5
   },
   "right": {
     "id": "d105357204565f77",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md"
+                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md"
               }
             }
           },
@@ -174,9 +174,9 @@
   },
   "active": "c6f552c91558a32a",
   "lastOpenFiles": [
-    "Introduction to Statistics - Stanford University📖/Binomial Distributions.md",
-    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+    "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
+    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Images/Pasted image 20230518010938.png",
     "Images/Pasted image 20230518002442.png",
     "Images/Pasted image 20230518002059.png",
