@@ -36,4 +36,7 @@ Hence, P(A and B) = P(A) * P(B)
 
 Bayes' formula,
 
-$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A)}$
+	$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A)}$
+usually, P(A) in the denominator is not given to us, and we derive it similarly as done in `Example 1`. If we plug it into Bayes' formula, we get the expanded version of Bayes' rule:
+
+	$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A \mid B) P(B) + P(A \mid \bar{B}) P(\bar{B})}$
