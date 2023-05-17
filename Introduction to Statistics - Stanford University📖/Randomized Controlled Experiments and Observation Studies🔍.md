@@ -1,3 +1,13 @@
 ## Observational Studies
 People who eat red meat have higher rates of certain cancers than those who don't eat red meat.
-* This means that there is an ****
+* This means that there is an **association** between red meat consumption and cancer: there is a link between these two.
+* But this does **not** mean that eating red meat *causes* cancer: people who don't eat red meat are known to exercise more and drink less alcohol, and it could be the latter two issues that cause the difference in cancer rates.
+This is an **observational study**: It measures outcomes of interest, and this can be used *to establish association*.
+
+**ASSOCIATION DOES NOT MEAN CAUSATION** 
+because there may be **confounding factors** such as exercise that are associated both with red meat consumption and cancer.
+
+## Randomized Controlled Experiments
+To establish *causation*, an experiment is required:
+A **treatment** (e.g., eating red meat) is *assigned* to people in the **treatment group** but not to people in the **control group**.
+Then the outcomes in the two groups are compared. To rule out confounders, 
