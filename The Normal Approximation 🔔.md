@@ -36,7 +36,7 @@ Finding the probable percentage of population by finding the areas under the cur
 > What percentage of fathers have heights between 67.4 in and 71.9 in?
 
 ### Step 1: Standardize
-	$z_1 = \large\frac{67.4 in - 68.3 in}{1.8 in} = 0.5$
+	$z_1 = \large\frac{67.4 in - 68.3 in}{1.8 in} = -0.5$
 	$z_2 = \large\frac{71.9 in - 68.3 in}{1.8 in} = 2$
 
 ### Step 2: Mark the area under the normal curve
@@ -47,4 +47,12 @@ Z-score table has entries that denote the area under the curve *below/to the lef
 ![[Pasted image 20230518002026.png]]
 ![[Pasted image 20230518002039.png]]
 ![[Pasted image 20230518002047.png]]
-From the table above, we can calculate the area under the curve between the $z$-scores $(0.5, 2)$ by subtracting the 
+From the table above, we can calculate the area under the curve between the $z$-scores $(-0.5, 2)$ by subtracting the area to the left of $z=-0.5$ from the area to the left of $z=2$
+	$Area(z=(0.5,2)) = Area(2) - Area(-0.5)$
+![[Pasted image 20230518002442.png]]
+Percentage of fathers with height between (67.4 in, 71.9 in) 
+$=0.9772 - 0.3085 = 66.87\%$
+> [!note]
+> Empirical rule is just a special case of normal approximation.
+
+
