@@ -34,6 +34,10 @@ Probability is a measure of the likelihood of an event to occur. Many events ca
 ### Probability Rule 8 (General Multiplication Rule)
 - For any two events A and B, P(A and B) = P(A) * P(B | A)
 
+## Bayes Rule
+P(B | A) = P(A and B) / P(A) = P(B and A) / P(A) = P(B) * P(A | B) / P(A)
+Hence, Bayes rul
+
 # Odds
 In #probabilitytheory, **odds** provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. 
 

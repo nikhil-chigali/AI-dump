@@ -24,4 +24,6 @@ Hence, P(A and B) = P(A) * P(B)
 > 	= 0.08 * 0.2 + 0.01 * (1 - 0.2)
 > 	= 2.4 %
 
-## Bayes Rule
+## Bayes Rule 🅱️
+
+P()
