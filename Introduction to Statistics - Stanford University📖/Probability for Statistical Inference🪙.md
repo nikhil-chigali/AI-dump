@@ -6,5 +6,6 @@
 **Rule for equally likely outcomes**: If there are *n* possible outcomes, and they are equally likely, then **P(A) = (number of outcomes in A) / *n***
 
 >[!example]
->Roll a die three times. What is P(at least one)
+>Roll a die three times🎲. What is P(at least one 6)?
+>We could write at
 
