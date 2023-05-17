@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5,
-    "collapsed": true
+    "width": 417.5
   },
   "right": {
     "id": "d105357204565f77",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Algebra.md",
+                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Algebra.md"
+                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md"
               }
             }
           },
@@ -175,9 +174,9 @@
   },
   "active": "ba80a10bb751fd03",
   "lastOpenFiles": [
+    "Math/Algebra.md",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
     "Introduction to Statistics - Stanford University📖/Probability for Statistical Inference🪙.md",
-    "Math/Algebra.md",
     "Introduction to Statistics - Stanford University📖/Randomized Controlled Experiments and Observation Studies🔍.md",
     "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
     "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",

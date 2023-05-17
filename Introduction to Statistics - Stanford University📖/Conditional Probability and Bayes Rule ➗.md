@@ -24,6 +24,16 @@ Hence, P(A and B) = P(A) * P(B)
 > 	= 0.08 * 0.2 + 0.01 * (1 - 0.2)
 > 	= 2.4 %
 
-## Bayes Rule 🅱️
+![[Algebra#Bayes' Rule🅱️]]
 
-P()
+> [!example]
+> Companies usually use the above example calculations to build spam filters.
+> But a more practical statistic to for us would be knowing 
+> 	P(email is spam | money appears in email)
+> Applying Bayes rule,
+> 	P(*spam* | money) = P(money | *spam*) P (spam) / P(money)
+> 	= 0.08 x 0.2 / 0.024 = 67%
+
+Bayes' formula,
+
+$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A)}$
