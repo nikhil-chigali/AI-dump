@@ -55,4 +55,13 @@ $=0.9772 - 0.3085 = 66.87\%$
 > [!note]
 > Empirical rule is just a special case of normal approximation.
 
+## Computing Percentiles with the Normal Approximation
 
+What is the 30th percentile of fathers' heights?
+![[Pasted image 20230518010938.png]]
+
+From the table, we can find the $z$ value with 30% to be: $z = -0.52$
+
+From the standardization formula, we solve for $x = \mu + z\sigma$
+Or: $z = -0.52$ means that the height is 0.52 standard deviations below average.
+Solving $x$ gives us $x=67.364$

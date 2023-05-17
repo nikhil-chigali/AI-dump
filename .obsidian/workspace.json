@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec3be93fe4e9ee7f",
+            "id": "c6f552c91558a32a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Normal Approximation 🔔.md",
+                "file": "Binomial Distributions.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 244.5
   },
   "right": {
     "id": "d105357204565f77",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Normal Approximation 🔔.md",
+                "file": "Binomial Distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Normal Approximation 🔔.md",
+                "file": "Binomial Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Normal Approximation 🔔.md"
+                "file": "Binomial Distributions.md"
               }
             }
           },
@@ -172,8 +172,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec3be93fe4e9ee7f",
+  "active": "c6f552c91558a32a",
   "lastOpenFiles": [
+    "The Normal Approximation 🔔.md",
+    "Binomial Distributions.md",
+    "Images/Pasted image 20230518010938.png",
     "Images/Pasted image 20230518002442.png",
     "Images/Pasted image 20230518002059.png",
     "Images/Pasted image 20230518002047.png",
@@ -182,7 +185,6 @@
     "Images/Pasted image 20230518001713.png",
     "Images/Pasted image 20230517235654.png",
     "Images/Pasted image 20230517232651.png",
-    "The Normal Approximation 🔔.md",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
     "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
@@ -203,8 +205,6 @@
     "Machine Learning Models.md",
     "Percentiles, the Five Number Summary, and the Standard Deviation.md",
     "Images/Pasted image 20230516150320.png",
-    "Images/Pasted image 20230516145950.png",
-    "Images/Pasted image 20230516144805.png",
     "README.md",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/__MACOSX",
