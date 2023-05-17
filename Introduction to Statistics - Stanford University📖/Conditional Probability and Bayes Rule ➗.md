@@ -40,3 +40,9 @@ Bayes' formula,
 usually, P(A) in the denominator is not given to us, and we derive it similarly as done in `Example 1`. If we plug it into Bayes' formula, we get the expanded version of Bayes' rule:
 
 	$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A \mid B) P(B) + P(A \mid \bar{B}) P(\bar{B})}$
+
+## Bayesian Analysis
+
+The above examples are good examples of Bayesian analysis.
+In Bayesian Analysis, 
+* We have a **Prior Probability** (*P(*)
