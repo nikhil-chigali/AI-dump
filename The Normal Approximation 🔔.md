@@ -9,8 +9,8 @@ states that for a normal distribution, (where $\mu$ is mean, and $\sigma$ is sta
 > 1. 68% of the data falls between
 > >   $(\mu \pm \sigma) = (20 - 0.5, 20 + 0.5) = (19.5, 20.5)$
 > 2. 95% of the data falls between
-> >   $(\mu \pm 2\sigma) = (20 - 2\times0.5, 20 + 2\into0.5) = (19, 21)$
-> 3. 68% of the data falls between
-> >   $(\mu \pm \sigma) = (20 - 0.5, 20 + 0.5) = (19.5, 20.5)$
+> >   $(\mu \pm 2\sigma) = (20 - 2\times0.5, 20 + 2\times0.5) = (19, 21)$
+> 3. 99.7% of the data falls between
+> >   $(\mu \pm 3\sigma) = (20 - 3\times0.5, 20 + 3\times0.5) = (18.5, 21.5)$
 
 
