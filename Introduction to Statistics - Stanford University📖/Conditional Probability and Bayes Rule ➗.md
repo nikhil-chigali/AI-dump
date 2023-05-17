@@ -54,10 +54,14 @@ In Bayesian Analysis,
 > 1% of the population has a certain disease. If an infected person is tested, then there is a 95% chance that the test is positive. If the person is not infected, then there is a 2% chance that the test gives an erroneous positive result ('false positive')
 >Given that a person tests positive, what are the chances that he has the disease?
 >> Know ➡️ P(D) = 1% ; P(+|D) = 95% ; P(+|no D) = 2%
->> Want  ➡️ P(D|+) ?? (Good application of Bayes' rule that allows us to flip the conditions around)  
+>> Want  ➡️ P(D|+) = ?? *(Good application of Bayes' rule that allows us to flip the conditions around)*  
 >> P(D|+) = P(+|D)P(D) / P(+) 
->> We dont know t
+>> *We don't know the denominator, hence we'll use the expanded version of Bayes' rule*
+>> P(D|+) = P(+|D)P(D) / (P(+|D)P(D)+P(+|no D)P(no D)) = 32.4%
 >
->
+>We got a low probability of **32.4%** that a person is infected given test shows positive though the test detects a positive person 95% of the time because, the population that's actually infected is only 1%.
+
+
+
 
 
