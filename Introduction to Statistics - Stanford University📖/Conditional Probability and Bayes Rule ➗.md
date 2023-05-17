@@ -14,4 +14,14 @@ Hence, P(A and B) = P(A) * P(B)
 > 	P(word 'money' appears in the email | email is *ham*) = 1%
 > 	P(email is *spam*) = 20%
 > What is the probability that 'money' appears in an email?
-> P
+> i.e., P(word 'money' appears in the email)
+> 	= P(money appears)
+> 	= P(money appears and *spam*) **or** P(money appears and *ham*)
+> 	\[Since both the above events are mutually exclusive]
+> 	= P(money appears and *spam*) **+** P(money appears and *ham*)
+> 	= P(money appears | *spam*) * P(*spam*) **+** P(money appears | *ham*) * P(*ham*)
+> 	= P(money appears | *spam*) * P(*spam*) **+** P(money appears | *ham*) * (1- P(*spam*))
+> 	= 0.08 * 0.2 + 0.01 * (1 - 0.2)
+> 	= 2.4 %
+
+## Bayes Rule
