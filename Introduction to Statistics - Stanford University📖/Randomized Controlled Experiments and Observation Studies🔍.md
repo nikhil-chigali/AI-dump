@@ -14,3 +14,6 @@ Then the outcomes in the two groups are compared. To rule out confounders, both 
 * The **subjects** are assigned into treatment and control groups at **random**
 * When possible, subjects in the control group get a **placebo**: it resembles the treatment but it's neutral. Assigning a placebo makes sure that both groups are equally affected by the **placebo effect**: the idea of being treated may have an effect by itself.
 * The experiment is **double-blind**: neither the subjects nor the evaluators know the assignments to treat and control.
+Randomization serves two purposes:
+* It makes the treatment group similar to the control group. Therefore, influences other than the treatment operate equally on both groups, apart from differences due to chance.
+* It allows assessing how relevant the treatment effect is, by calculating the size of chance effects when comparing the outcomes in the two groups (see [[later]])
