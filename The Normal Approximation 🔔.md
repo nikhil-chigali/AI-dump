@@ -22,6 +22,8 @@ $z$ has no unit (where, $x, \mu, \sigma$ can have units)
 
 Ex: $z = 2$ means the data point$(x)$ is 2 standard deviations$(2\sigma)$ above average$(\mu)$
 
+The z-score shows the number of standard deviations a given data point lies from the mean. So, standard deviation must be calculated first because the z-score uses it to communicate a data point's variability.
+
 > [!note]
 > Standardized data has mean 0 and standard deviation 1.
-> Once standardized, the data distribution has a **standard normal curve** given by the equation $y = \frac{1}{\sqrt{}}$
+> Once standardized, the data distribution has a **standard normal curve** (see image above) given by the equation $y = \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2}$
