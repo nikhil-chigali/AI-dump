@@ -10,4 +10,7 @@ because there may be **confounding factors** such as exercise that are associate
 ## Randomized Controlled Experiments
 To establish *causation*, an experiment is required:
 A **treatment** (e.g., eating red meat) is *assigned* to people in the **treatment group** but not to people in the **control group**.
-Then the outcomes in the two groups are compared. To rule out confounders, 
+Then the outcomes in the two groups are compared. To rule out confounders, both groups should be similar, apart from the treatment. To this end:
+* The **subjects** are assigned into treatment and control groups at **random**
+* When possible, subjects in the control group get a **placebo**: it resembles the treatment but it's neutral. Assigning a placebo makes sure that both groups are equally affected by the **placebo effect**: the idea of being treated may have an effect by itself.
+* The experiment is **double-blind**: neither the subjects nor the evaluators know the assignments to treat and control.
