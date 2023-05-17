@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Binomial Distributions.md"
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md"
               }
             }
           },
@@ -174,8 +174,9 @@
   },
   "active": "c6f552c91558a32a",
   "lastOpenFiles": [
-    "The Normal Approximation 🔔.md",
-    "Binomial Distributions.md",
+    "Introduction to Statistics - Stanford University📖/Binomial Distributions.md",
+    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
+    "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
     "Images/Pasted image 20230518010938.png",
     "Images/Pasted image 20230518002442.png",
     "Images/Pasted image 20230518002059.png",
@@ -194,7 +195,6 @@
     "Introduction to Statistics - Stanford University📖/Probability for Statistical Inference🪙.md",
     "Introduction to Statistics - Stanford University📖/Randomized Controlled Experiments and Observation Studies🔍.md",
     "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
-    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Math/Calculus.md",
     "!Descriptive Statistics and Visualizing Information 📊.md",
     "PyTorch.md",

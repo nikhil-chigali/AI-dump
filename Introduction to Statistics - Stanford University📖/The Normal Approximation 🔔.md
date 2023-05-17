@@ -1,5 +1,5 @@
 ## The Empirical Rule (or) Three-Sigma Rule (or) 68-95-99.7 rule
-states that for a normal distribution, (where $\mu$ is mean, and $\sigma$ is standard deviation)
+states that for a Normal distribution $N(\mu, \sigma)$, (where $\mu$ is mean, and $\sigma$ is standard deviation)
 1. 68% of the data falls within the first standard deviation from the mean. $(\mu \pm \sigma)$
 2. 95% of the data falls within the first two standard deviations from the mean $(\mu \pm 2\sigma)$
 3. 99.7% of the data falls within the first three standard deviations from the mean $(\mu \pm 3\sigma)$
