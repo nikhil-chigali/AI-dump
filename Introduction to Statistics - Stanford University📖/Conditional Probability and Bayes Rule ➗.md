@@ -61,7 +61,19 @@ In Bayesian Analysis,
 >
 >We got a low probability of **32.4%** that a person is infected given test shows positive though the test detects a positive person 95% of the time because, the population that's actually infected is only 1%.
 
-
-
-
+>[!example] Case Study: Warner's randomized response model
+>What % of students have cheated during exam in college?
+>Problem: Students might be too embarrassed to answer truthfully.
+>**Randomization comes to rescue:**
+>We do a survey that first instructs students to toss a coin twice. If the student gets 'tails' on the first toss, then the student has to answer Q1, otherwise the student answers Q2.
+>Q1: *Have you ever cheated on an exam in college?*
+>Q2: *Did you get 'tails' on the second toss?*
+>So the answer will be partly random: We don't know whether a 'yes' answer is due to the student cheating or getting tails on the second toss. This should put the student at ease to answer truthfully.
+>Key point: While we don't know what an individual 'yes' means, we can estimate the proportion of cheaters using all the answers collectively:
+>P(yes) = P(yes and Q1) + P(yes and Q2)
+>P(yes) = P(yes | Q1)P(Q1) + P(yes | Q2)P(Q2)
+>Solve for P(yes | Q1) = (P(yes) - P(yes | Q2) P(Q2)) / P(Q1)
+>In one survey, 27 students answered 'yes' and 30 answered 'no'
+>So we estimate P(yes) = 27/(27+30) = 47%, and get 
+>P(yes | Q1) = (0.47 - 0.5 * 0.5) / 0.5 = 44%
 
