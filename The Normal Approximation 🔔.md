@@ -32,6 +32,19 @@ The z-score shows the number of standard deviations a given data point lies from
 Finding the probable percentage of population by finding the areas under the curve is **normal approximation**
 
 >[!example]
-> Given a data of father's heights follows normal distribution with a mean of .. and standard deviation of ..
+> Given a data of father's heights follows a normal distribution with a mean of 68.3 in and a standard deviation of 1.8 in.
 > What percentage of fathers have heights between 67.4 in and 71.9 in?
 
+### Step 1: Standardize
+	$z_1 = \large\frac{67.4 in - 68.3 in}{1.8 in} = 0.5$
+	$z_2 = \large\frac{71.9 in - 68.3 in}{1.8 in} = 2$
+
+### Step 2: Mark the area under the normal curve
+![[Pasted image 20230518001713.png]]
+
+### Step 3: Once we have the z-scores, we look up areas from the Z-score table
+Z-score table has entries that denote the area under the curve *below/to the left of* the corresponding $z$ value 
+![[Pasted image 20230518002026.png]]
+![[Pasted image 20230518002039.png]]
+![[Pasted image 20230518002047.png]]
+From the table above, we can calculate the area under the curve between the $z$-scores $(0.5, 2)$ by subtracting the 
