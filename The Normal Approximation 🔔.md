@@ -27,3 +27,11 @@ The z-score shows the number of standard deviations a given data point lies from
 > [!note]
 > Standardized data has mean 0 and standard deviation 1.
 > Once standardized, the data distribution has a **standard normal curve** (see image above) given by the equation $y = \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2}$
+
+## Normal approximation
+Finding the probable percentage of population by finding the areas under the curve is **normal approximation**
+
+>[!example]
+> Given a data of father's heights follows normal distribution with a mean of .. and standard deviation of ..
+> What percentage of fathers have heights between 67.4 in and 71.9 in?
+
