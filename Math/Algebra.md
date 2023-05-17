@@ -17,7 +17,7 @@ Probability is a measure of the likelihood of an event to occur. Many events ca
 -  that is, the probability that an event does not occur is 1 minus the probability that it does occur.
 
 ### Probability Rule 4 (The Addition Rule for Disjoint Events)
-- If A and B are disjoint events, then P(A or B) = P(A) + P(B)
+- If A and B are disjoint (mutually exclusive) events, then P(A or B) = P(A) + P(B)
 
 ### Probability Rule 5 (The General Addition Rule)
 -  P(A or B) = P(A) + P(B) - P(A and B)
