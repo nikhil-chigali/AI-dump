@@ -13,4 +13,15 @@ states that for a normal distribution, (where $\mu$ is mean, and $\sigma$ is sta
 > 3. 99.7% of the data falls between
 > >   $(\mu \pm 3\sigma) = (20 - 3\times0.5, 20 + 3\times0.5) = (18.5, 21.5)$
 
+## Standardizing data
+A normal curve is determined by $\mu$ and $\sigma$ : If the data follows the normal curve, then knowing $\mu$ and $\sigma$ means knowing the whole histogram from the empirical rule.
+To compute areas under the curve, we first **standardize** the data by subtracting off  $\mu$ and then dividing by $\sigma$ : 
+	$\large z = \large\frac{x-\mu}{\sigma}$
+$z$ is called the **standardized value** or **z-score**
+$z$ has no unit (where, $x, \mu, \sigma$ can have units)
 
+Ex: $z = 2$ means the data point$(x)$ is 2 standard deviations$(2\sigma)$ above average$(\mu)$
+
+> [!note]
+> Standardized data has mean 0 and standard deviation 1.
+> Once standardized, the data distribution has a **standard normal curve** given by the equation $y = \frac{1}{\sqrt{}}$
