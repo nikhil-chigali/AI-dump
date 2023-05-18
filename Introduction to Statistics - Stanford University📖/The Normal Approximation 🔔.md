@@ -29,6 +29,9 @@ The z-score shows the number of standard deviations a given data point lies from
 > Once standardized, the data distribution has a **standard normal curve** (see image above) given by the equation $y = \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2}$
 
 ## Normal approximation
+> [!note]
+> We **approximate** the values in a normal distribution as $N(\mu,\sigma)$ is a continuous random variable and it is difficult to arrive at the exact solution  
+
 Finding the probable percentage of population by finding the areas under the curve is **normal approximation**
 
 >[!example]
