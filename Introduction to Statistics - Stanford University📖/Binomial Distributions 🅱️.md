@@ -28,4 +28,12 @@ Now that we know the number of 'k' successes out of 'n' trials, let's look at th
 We can use the binomial probability formula to calculate the probability without relying on any approximation table
 > [!note]
 > You can use $binompdf(n,p,k)$ to find binomial probabilities in a scientific calculator
-> 
+> Similarly, $binomcdf(n,p,k)$ gives us the probability of X less than equals to k. $P(\mathcal{X} \le \mathcal{k})$
+
+> [!example]
+> You play an online game 10 times. Each time there are three possible outcomes: P(big prize) = 10%, P(small prize) = 20%, P(no prize) = 70%
+> What is P(win 2 small prizes)?
+> > Success = win small prize
+> > Failure = Win big prize or nothing
+> > P(2 small prizes in 10 games) = P(X=2)
+> > $\large {10 \choose k}p^k(1-p)^{n-k}$
