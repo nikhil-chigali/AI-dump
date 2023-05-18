@@ -70,4 +70,9 @@ Similarly the expected value and the standard error can be obtained by multiplyi
 >P(Tails) = P(Heads) = 1/2
 >Number of Tails = Sum of 100 Draws
 >$E(S_n) = n\mu = n(\Sigma_{i=1}^{k}x_{i}P(X=x_i)) = 100\times\frac{1}{2} = 50$
->$SE(S_n) = \sqrt{n}\sigma = n(\sqrt{\Sigma_{i=1}^{k}(x_{i}-\mu)^2P(X=x_i)}) = \sqrt{100}\times\frac{1}{2} = 50$
+>$SE(S_n) = \sqrt{n}\sigma = n(\sqrt{\Sigma_{i=1}^{k}(x_{i}-\mu)^2P(X=x_i)}) = \sqrt{100}\times\frac{1}{2} = 5$
+
+$SE(\text{percentage of tails}) = \frac{\sigma}{\sqrt{n}} = 5\%$
+
+## Sampling Distribution
+**Experiment:** Toss a coin 100 times. The number of tails has the follo
