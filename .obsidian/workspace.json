@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md"
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   },
   "active": "b1ded7ac8e643a80",
   "lastOpenFiles": [
-    "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/05 Sampling Distributions and Central Limit Theorem.pdf",
     "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+    "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/05 Sampling Distributions and Central Limit Theorem.pdf",
     "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Images/Pasted image 20230518181811.png",
