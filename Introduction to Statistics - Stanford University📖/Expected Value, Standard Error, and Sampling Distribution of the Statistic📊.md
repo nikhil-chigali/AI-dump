@@ -78,6 +78,26 @@ The sampling distribution of $S_n$ provides more detailed information about the 
 
 A sampling distribution is a probability distribution of a statistic (such as the mean, standard deviation, variance, proportion, sum, and range) obtained from a larger number of samples drawn from a specific population. The sampling distribution of a given population is the distribution of frequencies of a range of different outcomes that could possibly occur for a statistic of a population.
 
+## Understanding Sampling Distribution
+
+A lot of data drawn and used by academicians, statisticians, researchers, marketers, analysts, etc. are actually samples, not populations. A sample is a subset of a population. 
+For example, a medical researcher that wanted to compare the average weight of all babies born in North America from 1995 to 2005 to those born in South America within the same time period cannot draw the data for the entire population of over a million childbirths that occurred over the ten-year time frame within a reasonable amount of time. They will instead only use the weight of, say, 100 babies, in each continent to make a conclusion. The weight of 100 babies used is the sample, and the average weight calculated is the sample mean.
+
+Now suppose that instead of taking just one sample of 100 newborn weights from each continent, the medical researcher takes repeated random samples from the general population, and computes the sample mean for each sample group. So, for North America, they pull up data for 100 newborn weights recorded in the U.S., Canada, and Mexico as follows: four 100 samples from select hospitals in the U.S., five 70 samples from Canada, and three 150 records from Mexico, for a total of 1,200 weights of newborn babies grouped in 12 sets. They also collect a sample data of 100 birth weights from each of the 12 countries in South America.
+
+>[!note]
+>Each sample has its own sample mean, and the distribution of the sample means is known as the sample distribution.
+
+The average weight computed for each sample set is the sampling distribution of the mean. Not just the mean can be calculated from a sample. Other statistics, such as the standard deviation, variance, proportion, and range can be calculated from sample data. The standard deviation and variance measure the variability of the sampling distribution.
+
+The number of observations in a population, the number of observations in a sample, and the procedure used to draw the sample sets determine the variability of a sampling distribution. 
+
+> **The standard deviation of a sampling distribution is called the standard error**. 
+
+While the mean of a sampling distribution is equal to the mean of the population, the standard error depends on the standard deviation of the population, the size of the population, and the size of the sample.
+
+Knowing how spread apart the mean of each of the sample sets are from each other and from the population mean will give an indication of how close the sample mean is to the population mean. The standard error of the sampling distribution decreases as the sample size increases.
+
 ## Three Histograms
 The chance process of tossing a coin 100 times comes with three different histograms:
 1. The probability histogram for producing the data:![[Pasted image 20230518171132.png]]
