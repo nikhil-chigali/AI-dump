@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md"
+                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md"
               }
             }
           },
@@ -174,10 +174,10 @@
   },
   "active": "c6f552c91558a32a",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Images/Pasted image 20230518093136.png",
     "Images/Pasted image 20230518092244.png",
     "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
-    "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Images/Pasted image 20230518010938.png",
     "Images/Pasted image 20230518002442.png",
@@ -187,7 +187,6 @@
     "Images/Pasted image 20230518002026.png",
     "Images/Pasted image 20230518001713.png",
     "Images/Pasted image 20230517235654.png",
-    "Images/Pasted image 20230517232651.png",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
     "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
