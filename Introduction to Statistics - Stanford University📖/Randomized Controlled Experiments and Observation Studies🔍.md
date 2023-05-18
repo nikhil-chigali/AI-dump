@@ -16,4 +16,4 @@ Then the outcomes in the two groups are compared. To rule out confounders, both 
 * The experiment is **double-blind**: neither the subjects nor the evaluators know the assignments to treat and control.
 Randomization serves two purposes:
 * It makes the treatment group similar to the control group. Therefore, influences other than the treatment operate equally on both groups, apart from differences due to chance.
-* It allows assessing how relevant the treatment effect is, by calculating the size of chance effects when comparing the outcomes in the two groups (see [[Expected Value, Standard Error, and Sampling Distribution of the Statistic📊]])
+* It allows assessing how relevant the treatment effect is, by calculating the size of chance effects when comparing the outcomes in the two groups (see [[Simple Random Sampling and Other Sampling Plans 🎲#Bias and Chance Error]])

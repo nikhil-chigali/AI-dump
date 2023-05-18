@@ -24,7 +24,7 @@ Since the sample is drawn at random, the estimate will be different from the par
 > [!tip] Formula
 >$\large{estimate=parameter + bias + chance\_error}$
 
-**Chance error** (**sampling error**) will get smaller as the sampling size gets bigger. Moreover, we can compute how large the chance error will be (see [[Expected Value, Standard Error, and Sampling Distribution of the Statistic📊]]).
+**Chance error** (**sampling error**) will get smaller as the sampling size gets bigger. Moreover, we can compute how large the chance error will be (see [[Square Root Law⚖️]]).
 This is not the case for **bias** (**systematic error**):
 Increasing the sample size just repeats the error on a larger scale, and typically we don't know how large the bias is.
 Hence, we try to avoid bias by using *chance* in our sampling

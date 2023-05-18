@@ -20,16 +20,7 @@ is a statistic that tells roughly how far off the statistic will be from it's ex
 
 **Standard Error (SE)** of a statistic plays the same role that the **Standard Deviation $\sigma$** plays for one observation at random
 
-The formula for **SE** is given by the Square root law 🌟
-
-## Square Root Law
-> [!tip] Formula
->$\large{SE(\bar{x_n}) = \frac{\sigma}{\sqrt{n}}}$
-
-### The importance of the square root law is twofold:
-1. It shows that the SE becomes smaller if we use a larger sample size *n*. We can use the formula to determine what sample size is required for desired accuracy (Controlling magnitude of *SE*, using *n*)
-2. The formula for the standard error **does not depend on the size of the population**, only on the size of the sample
-Standard error ties back to the errors that we saw in random sampling, expressed as "$chance\_error$" (Refer [[Simple Random Sampling and Other Sampling Plans 🎲]])
+The formula for **SE** is given by the [[Square Root Law⚖️]]
 
 ## Expected Value and Standard Error for percentages
 What percentage of likely voters approve the way the US President is handling his job?
