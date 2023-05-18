@@ -50,3 +50,17 @@ We can visualize the probabilities of various outcomes of $\mathcal{X}$ with a p
 A histogram of data gives percentages for observed data. In contrast, a probability histogram is a theoretical construct: it visualizes probabilities rather than that have been empirically observed.
 
 ## Normal approximation to Binomial distribution
+Consider the same example as before, but now we have n=50 games,
+![[Pasted image 20230518093136.png]]
+The curve looks like it has a normal distribution to it. Another way of confirming if a Binomial Distribution is Normal is by checking the following 2 conditions:
+	$np\ge10 \text{ and } n(1-p)\ge10$
+
+Now if we would like to find **P(at most 12 small prizes)**, it would be tedious to do calculations for all $\large \mathcal{X}  \epsilon [0,12]$   
+Rather, we can do a normal approximation to the function to find a value.
+
+Mean and Standard deviation of a binomial count, 
+$\large{\mu = np; \sigma=\sqrt{np(1-p)}}$ given $np\ge10 \text{ and } n(1-p)\ge10$ is true
+
+### Standardize
+$\mathcal{X} = 12$
+
