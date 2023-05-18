@@ -22,7 +22,7 @@ The best methods for sampling use chance in a planned way:
 ## Bias and Chance Error
 Since the sample is drawn at random, the estimate will be different from the parameter due to **chance error**. Drawing another sample will result in a different chance error.
 	$estimate=parameter + bias + chance\_error$
-**Chance error** (**sampling error**) will get smaller as the sampling size gets bigger. Moreover, we can compute how large the chance error will be (see [[later]]).
+**Chance error** (**sampling error**) will get smaller as the sampling size gets bigger. Moreover, we can compute how large the chance error will be (see [[Expected Value, Standard Error, and Sampling Distribution of the Statistic📊]]).
 This is not the case for **bias** (**systematic error**):
 Increasing the sample size just repeats the error on a larger scale, and typically we don't know how large the bias is.
 Hence, we try to avoid bias by using *chance* in our sampling
