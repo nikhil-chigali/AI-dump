@@ -56,4 +56,4 @@ All of the above formulas are also true when data are **simulated**, i.e., gener
 >> $\large{\mu = \int_{-\infty}^{\infty}xf(x)\,dx}$
 >> $\large{\sigma^2 = \int_{-\infty}^{\infty}(x-\mu)^2f(x)\,dx}$ 
 > 
-
+Sometimes we are interested in the sum of *n* draws
