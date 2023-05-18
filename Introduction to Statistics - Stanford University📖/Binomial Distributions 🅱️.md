@@ -14,13 +14,16 @@ $\mathcal{X}$ can take on whole number values between 0 & n with a distribution 
 
 ### Binomial Coefficient
 The Binomial coefficient gives us the number of "k" successes out of "n" observations
-	Binomial Coefficient $= \large {n \choose k} = \large\frac{n!}{k!(n-k)!}$
+> [!tip] Formula
+> Binomial Coefficient $= \large {n \choose k} = \large\frac{n!}{k!(n-k)!}$
+
 To put simply, it's the number of k combinations from n trials
 Ex: 3 successes out of 10 trials,
 $= \large {10 \choose 3} = \large\frac{10!}{3!(10-3)!} = 120 ways$
 
 Now that we know the number of 'k' successes out of 'n' trials, let's look at the probability of observing 'k' successes out of 'n' trials,
-	**Binomial Probability, $P(\mathcal{X}=\mathcal{k}) = \large {n \choose k}p^k(1-p)^{n-k}$**
+> [!tip] Formula
+>**Binomial Probability, $P(\mathcal{X}=\mathcal{k}) = \large {n \choose k}p^k(1-p)^{n-k}$**
 
 We can use the binomial probability formula to calculate the probability without relying on any approximation table
 > [!note]
@@ -50,12 +53,14 @@ A histogram of data gives percentages for observed data. In contrast, a probabil
 Consider the same example as before, but now we have n=50 games & p=0.2,
 ![[Pasted image 20230518093136.png]]
 The curve looks like it has a normal distribution to it. Another way of confirming if a Binomial Distribution is Normal is by checking the following 2 conditions:
-	$np\ge10 \text{ and } n(1-p)\ge10$
+> [!tip] Formula
+>$np\ge10 \text{ and } n(1-p)\ge10$
 
 Now if we would like to find **P(at most 12 small prizes)**, it would be tedious to do calculations for all $\large \mathcal{X}  \epsilon [0,12]$   
 Rather, we can do a normal approximation to the function to find a value.
 
-Mean and Standard deviation of a binomial count, 
+> [!tip] Formula
+>Mean and Standard deviation of a binomial count, 
 $\large{\mu = np; \sigma=\sqrt{np(1-p)}}$ given $np\ge10 \text{ and } n(1-p)\ge10$ is true
 
 ### Standardize
