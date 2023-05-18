@@ -59,4 +59,10 @@ All of the above formulas are also true when data are **simulated**, i.e., gener
 ## Expected value and standard error for the sum
 Sometimes we are interested in the sum of *n* draws ($S_n$) rather than the average ($\bar{x_n}$)
 Sum and average are related by $S_n = n\bar{x_n}$
-Similarly
+Similarly the expected value and the standard error can be obtained by multiplying by n,
+> [!tips] Formula
+> $E(S_n) = n\mu$
+> $SE(S_n) = \sqrt{n}\sigma$
+
+>[!example]
+>
