@@ -16,8 +16,10 @@ states that for a Normal distribution $N(\mu, \sigma)$; (where $\mu$ is mean, an
 ## Standardizing data
 A normal curve is determined by $\mu$ and $\sigma$ : If the data follows the normal curve, then knowing $\mu$ and $\sigma$ means knowing the whole histogram from the empirical rule.
 To compute areas under the curve, we first **standardize** the data by subtracting off  $\mu$ and then dividing by $\sigma$ : 
-	$\large z = \large\frac{x-\mu}{\sigma}$
+> [!tip] Formula
+>$\large{z = \frac{x-\mu}{\sigma}}$
 $z$ is called the **standardized value** or **z-score**
+
 $z$ has no unit (where, $x, \mu, \sigma$ can have units)
 
 Ex: $z = 2$ means the data point$(x)$ is 2 standard deviations$(2\sigma)$ above average$(\mu)$

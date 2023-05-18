@@ -33,7 +33,9 @@ There are two ways to describe a data distribution:
 Mean gives the average of the data, denoted by $\large \bar{x}$.
 Standard deviation gives the spread of the data. It's the root of mean of deviations of all data points from its mean raised to the power of 2.
 
-$\large s = \sqrt{\frac{1}{n}{\Sigma_{i=1}^{n}(x_i-\bar{x})^2}} or \sqrt{\frac{1}{n-1}{\Sigma_{i=1}^{n}(x_i-\bar{x})^2}}$
+> [!tip] Formula
+>$\large s = \sqrt{\frac{1}{n}{\Sigma_{i=1}^{n}(x_i-\bar{x})^2}}\text{ or }\sqrt{\frac{1}{n-1}{\Sigma_{i=1}^{n}(x_i-\bar{x})^2}}$
+
 > [!example]
 > Assuming we have data including house prices in some particular city, we could potentially use the standard deviation for the following:
 > 1. to know how different the prices in the particular city are

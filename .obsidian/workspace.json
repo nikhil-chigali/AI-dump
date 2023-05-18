@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md"
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md"
               }
             }
           },
@@ -173,15 +173,19 @@
   },
   "active": "cf25482664aee833",
   "lastOpenFiles": [
-    "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
+    "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
     "Introduction to Statistics - Stanford University📖/Randomized Controlled Experiments and Observation Studies🔍.md",
-    "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
-    "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
     "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+    "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
+    "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
+    "Introduction to Statistics - Stanford University📖/README.md",
+    "Introduction to Statistics - Stanford University📖/Probability for Statistical Inference🪙.md",
+    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
+    "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
+    "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Images/Pasted image 20230518093136.png",
     "Images/Pasted image 20230518092244.png",
-    "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Images/Pasted image 20230518010938.png",
     "Images/Pasted image 20230518002442.png",
     "Images/Pasted image 20230518002059.png",
@@ -190,12 +194,8 @@
     "Images/Pasted image 20230518002026.png",
     "Images/Pasted image 20230518001713.png",
     "Images/Pasted image 20230517235654.png",
-    "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
-    "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
-    "Introduction to Statistics - Stanford University📖/README.md",
     "Backlog✅.md",
     "Math/Algebra.md",
-    "Introduction to Statistics - Stanford University📖/Probability for Statistical Inference🪙.md",
     "Math/Calculus.md",
     "!Descriptive Statistics and Visualizing Information 📊.md",
     "PyTorch.md",

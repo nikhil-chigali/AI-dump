@@ -34,12 +34,13 @@ Hence, P(A and B) = P(A) * P(B)
 > 	P(*spam* | money) = P(money | *spam*) P (spam) / P(money)
 > 	= 0.08 x 0.2 / 0.024 = 67%
 
-Bayes' formula,
+> [!tip] Bayes' formula
+>$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A)}$
 
-	$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A)}$
 usually, P(A) in the denominator is not given to us, and we derive it similarly as done in `Example 1`. If we plug it into Bayes' formula, we get the expanded version of Bayes' rule:
 
-	$P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A \mid B) P(B) + P(A \mid \bar{B}) P(\bar{B})}$
+> [!tip] Bayes' formula
+> $P(B \mid A) =\large \frac{P(A \mid B) P(B)}{P(A \mid B) P(B) + P(A \mid \bar{B}) P(\bar{B})}$
 
 ## Bayesian Analysis
 
