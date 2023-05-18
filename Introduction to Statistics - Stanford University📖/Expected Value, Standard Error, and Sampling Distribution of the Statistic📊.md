@@ -31,8 +31,6 @@ The formula for **SE** is given by the Square root law 🌟
 2. The formula for the standard error **does not depend on the size of the population**, only on the size of the sample
 Standard error ties back to the errors that we saw in random sampling, expressed as "$chance\_error$" (Refer [[Simple Random Sampling and Other Sampling Plans 🎲]])
 
-More about square root law in [[Square Root Law⚖️]]
-
 ## Expected Value and Standard Error for percentages
 What percentage of likely voters approve the way the US President is handling his job?
 Let, Approve = 1 and Disapprove = 0
@@ -60,9 +58,11 @@ All of the above formulas are also true when data are **simulated**, i.e., gener
 Sometimes we are interested in the sum of *n* draws ($S_n$) rather than the average ($\bar{x_n}$)
 Sum and average are related by $S_n = n\bar{x_n}$
 Similarly the expected value and the standard error can be obtained by multiplying by n,
-> [!tips] Formula
+> [!tip] Formula
 > $E(S_n) = n\mu$
 > $SE(S_n) = \sqrt{n}\sigma$
+>> [!note]
+>> Unlike $SE$ of Averages ($\frac{\sigma}{\sqrt{n}}$) and Percentages ($\frac{\sigma}{\sqrt{n}}\times 100$) which decreases as the sample size *n* increases, the Standard error of Sum $SE(S_n)$ increases up with the sample size  ($\sqrt{n}\sigma$) 
 
 >[!example]
 >Toss a coin 100 times. How many Tails do you expect to see? Give or take how many?
