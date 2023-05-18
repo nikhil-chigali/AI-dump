@@ -11,3 +11,5 @@ Keep in mind that law of large numbers applies,
 >The law of large numbers state that the empirical histogram of the data (Histogram #2) will be close to the probability of probability histogram (Histogram #1) if the sample size is large
 
 ## Central Limit Theorem (CLT)
+
+As the sample size *n* gets larger, the probability histogram looks more and more similar to the normal curve. 
