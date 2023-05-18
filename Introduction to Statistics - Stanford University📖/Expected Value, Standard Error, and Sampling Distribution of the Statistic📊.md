@@ -46,4 +46,14 @@ All of the above formulas are for sampling with replacement. They are still appr
 * Formula for $SE$ is only approximately true for sampling without replacement. We have explicit formulas for without replacement
 
 ## Expected value and Standard error when simulating
-All of the above formulas are also true when data is 
+All of the above formulas are also true when data are **simulated**, i.e., generated according to a **probability histogram**
+
+> [!tip] Formula
+> If the random variable $X$ that is simulated has $k$ possible **discrete** outcomes $x_1, x_2, \dots, x_k$, then
+>> $\large{\mu = \Sigma_{i=1}^{k}x_{i}P(X=x_i)}$
+>> $\large{\sigma^2 = \Sigma_{i=1}^{k}(x_{i}-\mu)^2P(X=x_i)}$ 
+>If the random variable $X$ has a density $f$ (also said to have infinitely many solutions), such as when $X$ follows the normal curve, then
+>> $\large{\mu = \int_{-\infty}^{\infty}xf(x)\,dx}$
+>> $\large{\sigma^2 = \int_{-\infty}^{\infty}(x-\mu)^2f(x)\,dx}$ 
+> 
+
