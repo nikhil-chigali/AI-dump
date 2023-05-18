@@ -7,4 +7,7 @@ Keep in mind that law of large numbers applies,
 1. for averages and therefore also for percentages, but not for sums as SE *increases* with sample size
 2. for sampling with replacement from a population, or for simulating data from probability histogram
 >[!note]
->The law of large numbers state that the empirical histogram of the data (Histogram #2 in)
+>In terms of the [[Expected Value, Standard Error, and Sampling Distribution of the Statistic📊#Three Histograms]]
+>The law of large numbers state that the empirical histogram of the data (Histogram #2) will be close to the probability of probability histogram (Histogram #1) if the sample size is large
+
+## Central Limit Theorem (CLT)
