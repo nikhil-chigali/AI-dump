@@ -75,4 +75,17 @@ Similarly the expected value and the standard error can be obtained by multiplyi
 $SE(\text{percentage of tails}) = \frac{\sigma}{\sqrt{n}} = 5\%$
 
 ## Sampling Distribution
-**Experiment:** Toss a coin 100 times. The number of tails has the follo
+**Experiment:** Toss a coin 100 times. The number of tails has the following possible outcomes - 0,1,2,3,...,100
+How likely is each outcome?
+
+**Observation:** The number of tails has the binomial distribution with n=100, p=0.5 ('success' = coin lands tails)
+
+So if the statistic of interest is $S_n$ = 'number of tails', then
+$S_n$ is a random variable whose probability histogram is given by the binomial distribution. This is called **sampling distribution** of the statistic $S_n$
+
+The sampling distribution of $S_n$ provides more detailed information about the chance properties of $S_n$ than the summary numbers given by the expected value and the standard error
+
+## Three Histograms
+The chance process of tossing a coin 100 times comes with three different histograms:
+1. The probability histogram for producing the data:
+2. 
