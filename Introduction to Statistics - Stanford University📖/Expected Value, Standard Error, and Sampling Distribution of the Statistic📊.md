@@ -87,5 +87,11 @@ The sampling distribution of $S_n$ provides more detailed information about the 
 
 ## Three Histograms
 The chance process of tossing a coin 100 times comes with three different histograms:
-1. The probability histogram for producing the data:
-2. 
+1. The probability histogram for producing the data:![[Pasted image 20230518171132.png]]
+	The probability graph is a theoretical construct for simulating data.
+	Ex: P(H) = 0.5 and P(T) = 0.5
+2. The histogram of the 100 observed tosses. This is an empirical histogram of real data:
+![[Pasted image 20230518171314.png]]
+	This graph looks similar to the probability histogram in the first step, but it's a little different because the 100 tosses involve a **chance process** (hence chance error is involved)
+3. The probability histogram of the statistic $S_{100}$ = 'number of tails', which shows the distribution of $S_{100}$:![[Pasted image 20230518171727.png]]
+	This histogram gives the **sampling distribution of the statistic** "Number of tails in 100 tosses ($S_{100}$)"
