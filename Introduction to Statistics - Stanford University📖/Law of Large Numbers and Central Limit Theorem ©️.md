@@ -15,4 +15,13 @@ When sampling with replacement and *n* is large, then the sampling distribution 
 To standardize, subtract off the expected value of the statistic, then divide by its SE.
 Ex:![[Pasted image 20230518181811.png]]
 
+The key point of the theorem is that we know that the sampling distribution of the statistic is normal *no matter what the population histogram is:*
 ![[Pasted image 20230516144805.png]]
+	$\mu = \$ 67,000$
+	$\sigma = \$ 38,000$
+If we sample *n* incomes at random, then the sample average $\bar{x_n}$ follows a normal curve centered at 
+	$E(\bar{x_n}) = \mu = \$67,000$
+and its spread given by
+	$SE(\bar{x_n}) = \frac{\sigma}{\sqrt{n}} = \frac{\$38,000}{\sqrt{n}}$
+If we sample 100 incomes, then by empirical rule there is about 16% chance that $\bar{x_n}$ is larger than $E+1SE = \$ 70,800$
+	$SE(\bar{x_n}) = \frac{\$38,000}{\sqrt{n}} = \frac{\$38,000}{\sqrt{100}} = \$3,800$
