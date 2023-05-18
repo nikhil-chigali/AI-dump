@@ -55,5 +55,8 @@ All of the above formulas are also true when data are **simulated**, i.e., gener
 >If the random variable $X$ has a density $f$ (also said to have infinitely many solutions), such as when $X$ follows the normal curve, then
 >> $\large{\mu = \int_{-\infty}^{\infty}xf(x)\,dx}$
 >> $\large{\sigma^2 = \int_{-\infty}^{\infty}(x-\mu)^2f(x)\,dx}$ 
-> 
-Sometimes we are interested in the sum of *n* draws
+
+## Expected value and standard error for the sum
+Sometimes we are interested in the sum of *n* draws ($S_n$) rather than the average ($\bar{x_n}$)
+Sum and average are related by $S_n = n\bar{x_n}$
+Similarly
