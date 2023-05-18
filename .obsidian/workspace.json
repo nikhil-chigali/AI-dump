@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6f552c91558a32a",
+            "id": "cf25482664aee833",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 359.5
   },
   "right": {
     "id": "d105357204565f77",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md"
+                "file": "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md"
               }
             }
           },
@@ -172,12 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6f552c91558a32a",
+  "active": "cf25482664aee833",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
+    "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
+    "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
     "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Images/Pasted image 20230518093136.png",
     "Images/Pasted image 20230518092244.png",
-    "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
     "Images/Pasted image 20230518010938.png",
     "Images/Pasted image 20230518002442.png",
@@ -195,7 +197,6 @@
     "Math/Algebra.md",
     "Introduction to Statistics - Stanford University📖/Probability for Statistical Inference🪙.md",
     "Introduction to Statistics - Stanford University📖/Randomized Controlled Experiments and Observation Studies🔍.md",
-    "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
     "Math/Calculus.md",
     "!Descriptive Statistics and Visualizing Information 📊.md",
     "PyTorch.md",
