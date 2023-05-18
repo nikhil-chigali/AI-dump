@@ -5,9 +5,6 @@ If you read a question and each trial only has 2 outcomes (pass/fail, heads/tail
 2. There is a fixed number "n" observations
 3. All observations are **independent**
 4. The probability of success "p" is the same/constant for all the observations
-> [!note]
-> When determining if there is a binomial setting, the **independence** check can be tricky. 
-> 	*If the population is 10 times greater than the sample size*, then we can assume there is independence in a random selection
 
 ## Binomial Distribution
 1. $\mathcal{X}$ is defined as the number of successes
@@ -50,7 +47,7 @@ We can visualize the probabilities of various outcomes of $\mathcal{X}$ with a p
 A histogram of data gives percentages for observed data. In contrast, a probability histogram is a theoretical construct: it visualizes probabilities rather than that have been empirically observed.
 
 ## Normal approximation to Binomial distribution
-Consider the same example as before, but now we have n=50 games,
+Consider the same example as before, but now we have n=50 games & p=0.2,
 ![[Pasted image 20230518093136.png]]
 The curve looks like it has a normal distribution to it. Another way of confirming if a Binomial Distribution is Normal is by checking the following 2 conditions:
 	$np\ge10 \text{ and } n(1-p)\ge10$
@@ -63,4 +60,19 @@ $\large{\mu = np; \sigma=\sqrt{np(1-p)}}$ given $np\ge10 \text{ and } n(1-p)\ge1
 
 ### Standardize
 $\mathcal{X} = 12$
+$\mu = np = 10$
+$\sigma=\sqrt{np(1-p)} = 2.83$
+	$z = \frac{x-\mu}{\sigma} = 0.71$
+### Get probability value from the z-score table
+for z = 0.71, P(X=12) is 76%
 
+## Sampling without replacement
+A **simple random sample** selects subjects without replacement.
+
+This is not the binomial setting, as **p** changes after a subject has been removed, and it violates the **independence** condition
+But if the population is much larger than the sample, then sampling with replacement is about the same as sampling without replacement
+Then the number of successes will have approximately the binomial distribution (and so it will approximately follow the normal curve)
+
+> [!note]
+> When determining if there is a binomial setting, the **independence** check can be tricky. 
+> 	*If the population is 10 times greater than the sample size*, then we can assume there is independence in a random selection
