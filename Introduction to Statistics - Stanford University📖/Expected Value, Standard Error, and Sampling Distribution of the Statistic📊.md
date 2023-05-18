@@ -31,7 +31,7 @@ The formula for **SE** is given by the Square root law 🌟
 2. The formula for the standard error **does not depend on the size of the population**, only on the size of the sample
 Standard error ties back to the errors that we saw in random sampling, expressed as "$chance\_error$" (Refer [[Simple Random Sampling and Other Sampling Plans 🎲]])
 
-More about square root law in [[Square Root Law]]
+More about square root law in [[Square Root Law⚖️]]
 
 ## Expected Value and Standard Error for percentages
 What percentage of likely voters approve the way the US President is handling his job?
