@@ -36,4 +36,17 @@ We can use the binomial probability formula to calculate the probability without
 > > Success = win small prize
 > > Failure = Win big prize or nothing
 > > P(2 small prizes in 10 games) = P(X=2)
-> > $\large {10 \choose k}p^k(1-p)^{n-k}$
+> > $= \large {10 \choose 2}0.2^2(1-0.2)^{10-2}$
+> > $= 30.2\%$
+
+> [!info]
+> The outcomes of the 10 experiments are due to chance, so the number of successes is random: One set of 10 exp might result in 4 successes, another set might result in 7 successes.
+> Hence, we call $\mathcal{X}$ = number of successes a **random variable**
+> In the above example, we see that $\mathcal{X}$ has a **binomial distribution**
+
+## Probability Histogram
+We can visualize the probabilities of various outcomes of $\mathcal{X}$ with a probability histogram:
+![[Pasted image 20230518092244.png]]
+A histogram of data gives percentages for observed data. In contrast, a probability histogram is a theoretical construct: it visualizes probabilities rather than that have been empirically observed.
+
+## Normal approximation to Binomial distribution
