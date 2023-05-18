@@ -76,6 +76,8 @@ $S_n$ is a random variable whose probability histogram is given by the binomial 
 
 The sampling distribution of $S_n$ provides more detailed information about the chance properties of $S_n$ than the summary numbers given by the expected value and the standard error
 
+A sampling distribution is a probability distribution of a statistic (such as the mean, standard deviation, variance, proportion, sum, and range) obtained from a larger number of samples drawn from a specific population. The sampling distribution of a given population is the distribution of frequencies of a range of different outcomes that could possibly occur for a statistic of a population.
+
 ## Three Histograms
 The chance process of tossing a coin 100 times comes with three different histograms:
 1. The probability histogram for producing the data:![[Pasted image 20230518171132.png]]
