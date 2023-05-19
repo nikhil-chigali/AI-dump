@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
+                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md"
+                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md"
               }
             }
           },
@@ -173,11 +173,12 @@
   },
   "active": "b1ded7ac8e643a80",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
+    "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
     "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "Introduction to Statistics - Stanford University📖/Randomized Controlled Experiments and Observation Studies🔍.md",
     "Introduction to Statistics - Stanford University📖/Probability for Statistical Inference🪙.md",
-    "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
     "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/05 Sampling Distributions and Central Limit Theorem.pdf",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
@@ -187,7 +188,6 @@
     "Images/Pasted image 20230518171727.png",
     "Images/Pasted image 20230518171314.png",
     "Images/Pasted image 20230518171132.png",
-    "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
     "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
     "Introduction to Statistics - Stanford University📖/README.md",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
