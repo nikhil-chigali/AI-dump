@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
+                "file": "Introduction to Statistics - Stanford University📖/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
+                "file": "Introduction to Statistics - Stanford University📖/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
+                "file": "Introduction to Statistics - Stanford University📖/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md"
+                "file": "Introduction to Statistics - Stanford University📖/README.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   },
   "active": "0d1bf10b39a42e91",
   "lastOpenFiles": [
-    "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
     "Introduction to Statistics - Stanford University📖/Regression 📈.md",
+    "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
     "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
