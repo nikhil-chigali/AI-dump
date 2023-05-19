@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1ded7ac8e643a80",
+            "id": "0d1bf10b39a42e91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md"
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md"
               }
             }
           },
@@ -171,12 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1ded7ac8e643a80",
+  "active": "0d1bf10b39a42e91",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
+    "Introduction to Statistics - Stanford University📖/Regression 📈.md",
     "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
     "Introduction to Statistics - Stanford University📖/Expected Value, Standard Error, and Sampling Distribution of the Statistic📊.md",
     "Introduction to Statistics - Stanford University📖/Numerical Summary Measures🔢.md",
-    "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
     "Introduction to Statistics - Stanford University📖/The Normal Approximation 🔔.md",
     "Introduction to Statistics - Stanford University📖/Descriptive Statistics and Visualizing Information 📊.md",
     "Introduction to Statistics - Stanford University📖/Randomized Controlled Experiments and Observation Studies🔍.md",
