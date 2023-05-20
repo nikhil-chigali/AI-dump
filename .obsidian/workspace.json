@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/README.md",
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/README.md",
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/README.md",
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/README.md"
+                "file": "Introduction to Statistics - Stanford University📖/Regression 📈.md"
               }
             }
           },
@@ -173,6 +173,7 @@
   },
   "active": "0d1bf10b39a42e91",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/README.md",
     "Introduction to Statistics - Stanford University📖/Regression 📈.md",
     "Introduction to Statistics - Stanford University📖/Law of Large Numbers and Central Limit Theorem ©️.md",
     "Introduction to Statistics - Stanford University📖/Binomial Distributions 🅱️.md",
@@ -190,7 +191,6 @@
     "Images/Pasted image 20230518171314.png",
     "Images/Pasted image 20230518171132.png",
     "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
-    "Introduction to Statistics - Stanford University📖/README.md",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
     "Images/Pasted image 20230518093136.png",
     "Images/Pasted image 20230518092244.png",
