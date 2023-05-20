@@ -30,4 +30,16 @@ This formula is simply the sum of product of each **standardized** $x_i$'s and $
 > **Correlation always measures linear association.** 
 >> If the data has a non-linear correlation, the correlation coefficient *r* won't be able to measure the association between the two variables
 
-A numerical summary of the X
+A numerical summary of the X, Y pairs of data is given by: $\bar{x}, \bar{y}, s_x, s_y, r$
+A common convention is to call:
+	X (horizontal axis): explanatory variable or predictor
+	Y (vertical axis): response variable
+
+Correlation Coefficient *r* always ranges between -1 and 1
+-1 being strong negative linear association
++1 being strong positive linear association
+
+![[Pasted image 20230520174712.png]]
+Diagram above shows the scatter plots of data with $r= -0.9, -0.6, 0, 0.2, 1$ respectively
+![[Pasted image 20230520174902.png]]
+However, the r value for the above data is $r=0$ though we see a strong correlation (however, non-linear)
