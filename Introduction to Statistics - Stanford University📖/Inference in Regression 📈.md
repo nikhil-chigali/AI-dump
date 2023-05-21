@@ -24,5 +24,22 @@ Turns out,
 
 Another interpretation of regression line: 
 > The average value of *y* when the first coordinate is near *x*.
+> Average is the *best* predictor.
 
-Since average is the *best* predictor.
+## Regression to the mean
+Regression to the mean is a statistical phenomenon in which an extreme outcome is likely to revert back to average. This is often because the outlier experience involves a series of variables — either good or bad — occurring simultaneously to create a great or poor result, like flipping a coin and getting heads multiple times. This is why an extreme outcome is typically followed by an average result.
+
+![[Pasted image 20230521084130.png]]
+
+## Regression Fallacy
+Some examples of Regression Fallacy
+> [!example]
+> -   A teacher laments: “When I praise my students for good work, the next time they try, they tend to be less good. When I punish my students for producing bad work, the next time they try, they tend to do much better. Therefore, punishments work, but rewards do not.”
+> - An aspiring athlete marvels: “Wow, yesterday my foot was really painful, and I soaked it in a hot bowl of garlic-infused water, now it feels much better. There must be some healing properties in that garlicky water!”
+> - A film critic stipulates: “Winning an Academy Award, the most prestigious prize in show business, can lead an actor’s career to decline rather than ascend._”_
+
+False assumptions like these, where it is deduced that there's an underlying cause for change in performance in the *retest* situation, are called **regression fallacies**
+
+Regression to Mean help prevent these false assumptions.
+
+
