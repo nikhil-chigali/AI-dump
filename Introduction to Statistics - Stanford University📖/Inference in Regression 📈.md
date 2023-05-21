@@ -29,6 +29,14 @@ Another interpretation of regression line:
 ## Regression to the mean
 Regression to the mean is a statistical phenomenon in which an extreme outcome is likely to revert back to average. This is often because the outlier experience involves a series of variables — either good or bad — occurring simultaneously to create a great or poor result, like flipping a coin and getting heads multiple times. This is why an extreme outcome is typically followed by an average result.
 
+Regression to the mean doesn't mean that things are evening out. Rather, it goes to say that the extreme events are becoming diluted by the average events that occur much more commonly. 
+
+Let's take our equation, $\hat{y}=a+bx$ 
+The prediction of *y* at $x=\bar{x}$ is $\hat{y}=\bar{y}$
+But $\large{b=r\frac{s_y}{s_x}}$ means that if *x* is 1 standard deviation $s_x$ above $\bar{x}$, then predicted $\hat{y}$ is only $rs_y$ above $\bar{y}$
+Since *r* is between -1 and 1, the predictio
+
+
 ![[Pasted image 20230521084130.png]]
 
 ## Regression Fallacy
@@ -40,6 +48,6 @@ Some examples of Regression Fallacy
 
 False assumptions like these, where it is deduced that there's an underlying cause for change in performance in the *retest* situation, are called **regression fallacies**
 
-Regression to Mean help prevent these false assumptions.
+Regression to mean help prevent these false assumptions.
 
 
