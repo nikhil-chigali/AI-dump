@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d1bf10b39a42e91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Correlation 📈📉.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "84d5696e6953102c",
             "type": "leaf",
             "state": {
@@ -32,7 +20,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -184,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a02ae156b0824a52",
+  "active": "84d5696e6953102c",
   "lastOpenFiles": [
     "Introduction to Statistics - Stanford University📖/Correlation 📈📉.md",
     "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
+    "Images/Pasted image 20230521082552.png",
     "Images/Pasted image 20230520174902.png",
     "Images/Pasted image 20230520174712.png",
     "Images/Pasted image 20230520173207.png",
@@ -210,7 +198,6 @@
     "Introduction to Statistics - Stanford University📖/Square Root Law⚖️.md",
     "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
     "Images/Pasted image 20230518171727.png",
-    "Images/Pasted image 20230518171314.png",
     "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
     "Backlog✅.md",
@@ -223,7 +210,6 @@
     "Activation Functions.md",
     "Feature Engineering.md",
     "Machine Learning Models.md",
-    "Percentiles, the Five Number Summary, and the Standard Deviation.md",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/01 Descriptive Statistics for Exploring Data.pdf",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/__MACOSX",
     "Introduction to Statistics - Stanford University📖/Intro-To-Statistics_Course-Slides/12 Multiple Comparisons.pdf",
