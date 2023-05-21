@@ -34,10 +34,10 @@ Regression to the mean doesn't mean that things are evening out. Rather, it goes
 Let's take our equation, $\hat{y}=a+bx$ 
 The prediction of *y* at $x=\bar{x}$ is $\hat{y}=\bar{y}$
 But $\large{b=r\frac{s_y}{s_x}}$ means that if *x* is 1 standard deviation $s_x$ above $\bar{x}$, then predicted $\hat{y}$ is only $rs_y$ above $\bar{y}$
-Since *r* is between -1 and 1, the predictio
+Since *r* is between -1 and 1, the prediction is '*toward the mean*': $\hat{y}$ is few standard deviations away from $\bar{y}$ than $x$ is from $\bar{x}$
 
-
-![[Pasted image 20230521084130.png]]
+In a test-retest situation, the top scores will somewhat drop on the retest, the whole bottom group moves up.
+This is because, in such kind of situations, there is more than just skill involved. It's usually a combination of "*skill + luck*" (i.e., random chance)
 
 ## Regression Fallacy
 Some examples of Regression Fallacy
