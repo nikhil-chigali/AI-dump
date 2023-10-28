@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4102900d160fbad",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.12"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -153,6 +164,16 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "de6b29e4bc47a64e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -171,7 +192,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84d5696e6953102c",
+  "active": "f4102900d160fbad",
   "lastOpenFiles": [
     "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
     "Images/Pasted image 20230521084130.png",
