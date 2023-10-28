@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
+                "file": "Math/Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
+                "file": "Math/Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
+                "file": "Math/Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md"
+                "file": "Math/Algebra.md"
               }
             }
           },
@@ -173,9 +173,9 @@
   },
   "active": "84d5696e6953102c",
   "lastOpenFiles": [
+    "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
     "Images/Pasted image 20230521084130.png",
     "Introduction to Statistics - Stanford University📖/Correlation 📈📉.md",
-    "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
     "Images/Pasted image 20230521082552.png",
     "Images/Pasted image 20230520174902.png",
     "Images/Pasted image 20230520174712.png",
@@ -198,7 +198,6 @@
     "Images/Pasted image 20230518181811.png",
     "Introduction to Statistics - Stanford University📖/Square Root Law⚖️.md",
     "Introduction to Statistics - Stanford University📖/Simple Random Sampling and Other Sampling Plans 🎲.md",
-    "Images/Pasted image 20230518171727.png",
     "Introduction to Statistics - Stanford University📖/Statistical Inference Glossary.md",
     "Introduction to Statistics - Stanford University📖/Conditional Probability and Bayes Rule ➗.md",
     "Backlog✅.md",
