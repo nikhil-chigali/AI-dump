@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f4102900d160fbad",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.12"
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -192,7 +181,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4102900d160fbad",
+  "active": "84d5696e6953102c",
   "lastOpenFiles": [
     "Introduction to Statistics - Stanford University📖/Inference in Regression 📈.md",
     "Images/Pasted image 20230521084130.png",
